@@ -1,0 +1,1 @@
+<view class="content" bind:__l="__l"><image class="logo" src="/static/logo.png"></image><view><text class="title">购物车</text></view></view>

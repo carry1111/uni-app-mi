@@ -1,0 +1,13 @@
+
+.content {
+	text-align: center;
+	height: 400rpx;
+}
+.header{
+	padding: 50rpx 0;
+	background-color: #f37d0f;
+	color: #fff;
+	font-size: 16rpx;
+	text-align: left;
+}
+

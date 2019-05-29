@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "首页",
+  "usingComponents": {
+    "tab": "/components/wuc-tab/wuc-tab"
+  }
+}

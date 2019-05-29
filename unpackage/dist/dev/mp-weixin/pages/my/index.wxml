@@ -1,0 +1,1 @@
+<view class="content" bind:__l="__l"><view class="header">登录/注册</view><view class="order">订单</view></view>

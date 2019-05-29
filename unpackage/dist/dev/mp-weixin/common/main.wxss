@@ -1,0 +1,33 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*每个页面公共css */
+uni-page-head{
+        display: none;
+}
+._ul{
+		list-style: none;
+}
+._a{
+		text-decoration: none;
+}
+.clearfix::after{
+		content: "";
+		display: block;
+		clear: both;
+		overflow: hidden;
+		height: 0;
+}
+
