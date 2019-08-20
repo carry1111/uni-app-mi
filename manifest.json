@@ -59,5 +59,9 @@
             "urlCheck" : false
         },
         "usingComponents" : true
+    },
+    "h5" : {
+        "title" : "小米商城",
+        "domain" : "https://carry1111.github.io/uni-app-mi"
     }
 }
