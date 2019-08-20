@@ -1,6 +1,11 @@
 {
   "navigationBarTitleText": "首页",
   "usingComponents": {
-    "tab": "/components/wuc-tab/wuc-tab"
+    "tab": "/components/wuc-tab/wuc-tab",
+    "phone": "/components/index/phone",
+    "recommend": "/components/index/recommend",
+    "intellect": "/components/index/intellect",
+    "back-top": "/components/common/back-top",
+    "tab-bar": "/components/common/tab-bar"
   }
 }

@@ -1,0 +1,1 @@
+<view class="empty" bind:__l="__l"><label data-event-opts="{{[['tap',[['toPage',['$event']]]]]}}" bindtap="__e" class="_span"><label class="text _span">购物车还是空的</label><label class="btn _span">去逛逛</label></label></view>

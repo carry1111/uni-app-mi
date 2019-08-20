@@ -7,16 +7,22 @@ swiper {
 }
 .wuc-tab {
     white-space: nowrap;
+	padding-right: 60rpx;
 }
 .wuc-tab-item {
-    height: 90rpx;
+    height: 65rpx;
     display: inline-block;
-    line-height: 90rpx;
+    line-height: 65rpx;
     margin: 0 10rpx;
     padding: 0 20rpx;
+	color: rgb(116, 116, 116);
 }
 .wuc-tab-item.cur {
-    border-bottom: 4rpx solid;
+}
+.wuc-tab-item .name{
+	display: inline-block;
+	height: 61rpx;
+	border-bottom: 4rpx solid;
 }
 .wuc-tab.fixed {
 	position: fixed;
@@ -58,5 +64,8 @@ swiper {
 }
 .text-xl {
 	font-size: 36rpx;
+}
+.tab-selected{
+	color: rgb(237, 91, 0);
 }
 

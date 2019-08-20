@@ -1,16 +1,19 @@
 (global["webpackJsonp"] = global["webpackJsonp"] || []).push([["common/vendor"],{
 
-/***/ "../../../../study/uni-app/demo/demo1/main.js":
-/*!*********************************************!*\
-  !*** D:/D/study/uni-app/demo/demo1/main.js ***!
-  \*********************************************/
+/***/ "../../../../study/uni-app/demo/uni-app-mi/main.js":
+/*!**************************************************!*\
+  !*** D:/D/study/uni-app/demo/uni-app-mi/main.js ***!
+  \**************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(createApp) {__webpack_require__(/*! uni-pages */ "../../../../study/uni-app/demo/demo1/pages.json");
+/* WEBPACK VAR INJECTION */(function(createApp) {__webpack_require__(/*! uni-pages */ "../../../../study/uni-app/demo/uni-app-mi/pages.json");
 var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
-var _App = _interopRequireDefault(__webpack_require__(/*! ./App */ "../../../../study/uni-app/demo/demo1/App.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}
+var _App = _interopRequireDefault(__webpack_require__(/*! ./App */ "../../../../study/uni-app/demo/uni-app-mi/App.vue"));
+var _store = _interopRequireDefault(__webpack_require__(/*! ./store */ "../../../../study/uni-app/demo/uni-app-mi/store/index.js"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}
+
+_vue.default.prototype.$store = _store.default;
 
 _vue.default.config.productionTip = false;
 
@@ -24,83 +27,1276 @@ createApp(app).$mount();
 
 /***/ }),
 
-/***/ "../../../../study/uni-app/demo/demo1/main.js?{\"page\":\"pages%2Fclassify%2Findex\"}":
-/*!*********************************************************************************!*\
-  !*** D:/D/study/uni-app/demo/demo1/main.js?{"page":"pages%2Fclassify%2Findex"} ***!
-  \*********************************************************************************/
+/***/ "../../../../study/uni-app/demo/uni-app-mi/main.js?{\"page\":\"pages%2Fabout%2Findex\"}":
+/*!***********************************************************************************!*\
+  !*** D:/D/study/uni-app/demo/uni-app-mi/main.js?{"page":"pages%2Fabout%2Findex"} ***!
+  \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "../../../../study/uni-app/demo/demo1/pages.json");
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "../../../../study/uni-app/demo/uni-app-mi/pages.json");
 
 var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
-var _index = _interopRequireDefault(__webpack_require__(/*! ./pages/classify/index.vue */ "../../../../study/uni-app/demo/demo1/pages/classify/index.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+var _index = _interopRequireDefault(__webpack_require__(/*! ./pages/about/index.vue */ "../../../../study/uni-app/demo/uni-app-mi/pages/about/index.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 createPage(_index.default);
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
 
 /***/ }),
 
-/***/ "../../../../study/uni-app/demo/demo1/main.js?{\"page\":\"pages%2Findex%2Findex\"}":
-/*!******************************************************************************!*\
-  !*** D:/D/study/uni-app/demo/demo1/main.js?{"page":"pages%2Findex%2Findex"} ***!
-  \******************************************************************************/
+/***/ "../../../../study/uni-app/demo/uni-app-mi/main.js?{\"page\":\"pages%2Fclassify%2Findex\"}":
+/*!**************************************************************************************!*\
+  !*** D:/D/study/uni-app/demo/uni-app-mi/main.js?{"page":"pages%2Fclassify%2Findex"} ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "../../../../study/uni-app/demo/demo1/pages.json");
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "../../../../study/uni-app/demo/uni-app-mi/pages.json");
 
 var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
-var _index = _interopRequireDefault(__webpack_require__(/*! ./pages/index/index.vue */ "../../../../study/uni-app/demo/demo1/pages/index/index.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+var _index = _interopRequireDefault(__webpack_require__(/*! ./pages/classify/index.vue */ "../../../../study/uni-app/demo/uni-app-mi/pages/classify/index.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 createPage(_index.default);
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
 
 /***/ }),
 
-/***/ "../../../../study/uni-app/demo/demo1/main.js?{\"page\":\"pages%2Fmy%2Findex\"}":
-/*!***************************************************************************!*\
-  !*** D:/D/study/uni-app/demo/demo1/main.js?{"page":"pages%2Fmy%2Findex"} ***!
-  \***************************************************************************/
+/***/ "../../../../study/uni-app/demo/uni-app-mi/main.js?{\"page\":\"pages%2Fdetail%2Findex\"}":
+/*!************************************************************************************!*\
+  !*** D:/D/study/uni-app/demo/uni-app-mi/main.js?{"page":"pages%2Fdetail%2Findex"} ***!
+  \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "../../../../study/uni-app/demo/demo1/pages.json");
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "../../../../study/uni-app/demo/uni-app-mi/pages.json");
 
 var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
-var _index = _interopRequireDefault(__webpack_require__(/*! ./pages/my/index.vue */ "../../../../study/uni-app/demo/demo1/pages/my/index.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+var _index = _interopRequireDefault(__webpack_require__(/*! ./pages/detail/index.vue */ "../../../../study/uni-app/demo/uni-app-mi/pages/detail/index.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 createPage(_index.default);
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
 
 /***/ }),
 
-/***/ "../../../../study/uni-app/demo/demo1/main.js?{\"page\":\"pages%2Fshopcart%2Findex\"}":
-/*!*********************************************************************************!*\
-  !*** D:/D/study/uni-app/demo/demo1/main.js?{"page":"pages%2Fshopcart%2Findex"} ***!
-  \*********************************************************************************/
+/***/ "../../../../study/uni-app/demo/uni-app-mi/main.js?{\"page\":\"pages%2Findex%2Findex\"}":
+/*!***********************************************************************************!*\
+  !*** D:/D/study/uni-app/demo/uni-app-mi/main.js?{"page":"pages%2Findex%2Findex"} ***!
+  \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "../../../../study/uni-app/demo/demo1/pages.json");
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "../../../../study/uni-app/demo/uni-app-mi/pages.json");
 
 var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
-var _index = _interopRequireDefault(__webpack_require__(/*! ./pages/shopcart/index.vue */ "../../../../study/uni-app/demo/demo1/pages/shopcart/index.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+var _index = _interopRequireDefault(__webpack_require__(/*! ./pages/index/index.vue */ "../../../../study/uni-app/demo/uni-app-mi/pages/index/index.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 createPage(_index.default);
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
 
 /***/ }),
 
-/***/ "../../../../study/uni-app/demo/demo1/pages.json":
-/*!************************************************!*\
-  !*** D:/D/study/uni-app/demo/demo1/pages.json ***!
-  \************************************************/
+/***/ "../../../../study/uni-app/demo/uni-app-mi/main.js?{\"page\":\"pages%2Fmy%2Findex\"}":
+/*!********************************************************************************!*\
+  !*** D:/D/study/uni-app/demo/uni-app-mi/main.js?{"page":"pages%2Fmy%2Findex"} ***!
+  \********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "../../../../study/uni-app/demo/uni-app-mi/pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _index = _interopRequireDefault(__webpack_require__(/*! ./pages/my/index.vue */ "../../../../study/uni-app/demo/uni-app-mi/pages/my/index.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_index.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
+/***/ "../../../../study/uni-app/demo/uni-app-mi/main.js?{\"page\":\"pages%2Forder%2Fcheckout%2Findex\"}":
+/*!**********************************************************************************************!*\
+  !*** D:/D/study/uni-app/demo/uni-app-mi/main.js?{"page":"pages%2Forder%2Fcheckout%2Findex"} ***!
+  \**********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "../../../../study/uni-app/demo/uni-app-mi/pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _index = _interopRequireDefault(__webpack_require__(/*! ./pages/order/checkout/index.vue */ "../../../../study/uni-app/demo/uni-app-mi/pages/order/checkout/index.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_index.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
+/***/ "../../../../study/uni-app/demo/uni-app-mi/main.js?{\"page\":\"pages%2Fsearch%2Findex\"}":
+/*!************************************************************************************!*\
+  !*** D:/D/study/uni-app/demo/uni-app-mi/main.js?{"page":"pages%2Fsearch%2Findex"} ***!
+  \************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "../../../../study/uni-app/demo/uni-app-mi/pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _index = _interopRequireDefault(__webpack_require__(/*! ./pages/search/index.vue */ "../../../../study/uni-app/demo/uni-app-mi/pages/search/index.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_index.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
+/***/ "../../../../study/uni-app/demo/uni-app-mi/main.js?{\"page\":\"pages%2Fshopcart%2Findex\"}":
+/*!**************************************************************************************!*\
+  !*** D:/D/study/uni-app/demo/uni-app-mi/main.js?{"page":"pages%2Fshopcart%2Findex"} ***!
+  \**************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "../../../../study/uni-app/demo/uni-app-mi/pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _index = _interopRequireDefault(__webpack_require__(/*! ./pages/shopcart/index.vue */ "../../../../study/uni-app/demo/uni-app-mi/pages/shopcart/index.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_index.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
+/***/ "../../../../study/uni-app/demo/uni-app-mi/pages.json":
+/*!*****************************************************!*\
+  !*** D:/D/study/uni-app/demo/uni-app-mi/pages.json ***!
+  \*****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
+
+/***/ }),
+
+/***/ "../../../../study/uni-app/demo/uni-app-mi/static/data/appliances.js":
+/*!********************************************************************!*\
+  !*** D:/D/study/uni-app/demo/uni-app-mi/static/data/appliances.js ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var appliances = [
+{
+  imageUrl: 'http://i8.mifile.cn/v1/a1/c585ed38-bee4-2f3c-c413-a1af154a74b3!360x360.webp',
+  name: '米家互联网空调（一级能效）',
+  info: '1.5匹，全直流变频',
+  price: 2299,
+  oldPrice: 2699 },
+
+{
+  imageUrl: 'http://cdn.cnbj1.fds.api.mi-img.com/mi-mall/552e42b8706ee8d0bd3e048d2a5c4316.jpg?thumb=1&w=360&h=360',
+  name: '米家洗烘一体机Pro',
+  info: '支持语音遥控、智能投放',
+  price: 2999,
+  oldPrice: 2699 },
+
+{
+  imageUrl: 'http://i8.mifile.cn/v1/a1/75f5a1ad-e2c6-36a9-fd56-66d253cc0469!360x360.webp',
+  name: '米家空调',
+  info: '大1匹，静音，快速制冷热',
+  price: 1699,
+  oldPrice: 1799 },
+
+{
+  imageUrl: 'http://i8.mifile.cn/v1/a1/27721d21-782a-32e8-772b-462652d9acde!360x360.webp',
+  name: '米家洗烘一体机',
+  info: '洗得净、烘得干',
+  price: 2299,
+  oldPrice: 2699 },
+
+{
+  imageUrl: 'http://i8.mifile.cn/v1/a1/ce8d4b39-18b3-5b8e-ea74-5a2c86856e20!360x360.webp',
+  name: '米家互联网空调C1（一级能效）',
+  info: '1.5匹，自清洁，全直流变频',
+  price: 2499,
+  oldPrice: 2799 },
+
+{
+  imageUrl: 'http://i8.mifile.cn/v1/a1/33c6d391-82a0-0fd2-2d0e-fb59f4679b6c!360x360.webp',
+  name: 'Redmi波轮洗衣机1A',
+  info: '大容量一次洗净全家衣物',
+  price: 899,
+  oldPrice: 2699 }];var _default =
+
+
+appliances;exports.default = _default;
+
+/***/ }),
+
+/***/ "../../../../study/uni-app/demo/uni-app-mi/static/data/categoryProductList.js":
+/*!*****************************************************************************!*\
+  !*** D:/D/study/uni-app/demo/uni-app-mi/static/data/categoryProductList.js ***!
+  \*****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var product = [
+{
+  categoryName: '新品',
+  subcategory: [
+  {
+    typeName: '手机',
+    productList: [
+    { name: '小米CC9', imgSrc: 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/ab6ac57a93749f70bb02023acb8e352c.png?thumb=1&w=120&h=120' },
+    { name: '小米CC9e', imgSrc: 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/23a98a5cf30d9077b3a143344615d6a3.png?thumb=1&w=120&h=120' },
+    { name: '小米CC9 美图版', imgSrc: 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/1fb429ab16761bf999742d2b0fc302c9.png?thumb=1&w=120&h=120' },
+    { name: 'Redmi K20 Pro', imgSrc: 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/c7616c2ddc8ca4546caf1f48bc31b24c.png?thumb=1&w=120&h=120' },
+    { name: 'Redmi K20', imgSrc: 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/728ffa7ec37de1e6a4badac29fdf3a0f.png?thumb=1&w=120&h=120' },
+    { name: 'Redmi 7A', imgSrc: 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/20838b39f8bc6bab9eabb519d50cf2dd.png?thumb=1&w=120&h=120' },
+    { name: '小米9', imgSrc: 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/80db44cd6d4334a845b1e2e8335f060b.png?thumb=1&w=120&h=120' },
+    { name: '小米9 SE', imgSrc: 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/a1948c1bea112bee09a4a9b2f6bfcbad.png?thumb=1&w=120&h=120' },
+    { name: 'Redmi Note 7 Pro', imgSrc: 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/4ce436f7215e54bff6d8e34b02c6b124.png?thumb=1&w=120&h=120' },
+    { name: 'Redmi 7', imgSrc: 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/19a0a988c92e861d10c84b4fda78264f.png?thumb=1&w=120&h=120' },
+    { name: '黑鲨游戏手机 2', imgSrc: 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/96b660666abfc5b37cdea075e63e3ce6.jpg?thumb=1&w=120&h=120	' },
+    { name: 'Redmi Note 7', imgSrc: 'https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/23a250dfaba87009c28a627d3a292c76.png?thumb=1&w=120&h=120' }] },
+
+
+  {
+    typeName: '家电',
+    productList: [
+    { name: '全面屏电视E55A', imgSrc: 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/8918bab2e5fbdb1ebe79595ce6716a63.jpg?thumb=1&w=120&h=120' },
+    { name: '壁画电视65英寸', imgSrc: 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/43fa2a34581695ada4775976e8c2ca81.jpg?thumb=1&w=120&h=120' },
+    { name: '电视4X65英寸', imgSrc: 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/549e083e296bde93f6c15d00f9be8968.jpg?thumb=1&w=120&h=120' },
+    { name: '立式空调C1', imgSrc: 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/7bdf9ac76bed032d94a638e88aa8aa0d.png?thumb=1&w=120&h=120' },
+    { name: '空调C1（一级能效）', imgSrc: 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/8ce424d6fe93dfb74733b5838140b7ee.jpg?thumb=1&w=120&h=120' },
+    { name: '洗烘一体机1A', imgSrc: 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3cf4b7d54b43848dcb5e6aa5590e91ac.jpg?thumb=1&w=120&h=120' }] },
+
+
+  {
+    typeName: '电脑',
+    productList: [
+    { name: '游戏本512GB', imgSrc: 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/bb90e130ecf2248e6dcbd239b72696e9.jpg?thumb=1&w=120&h=120' },
+    { name: 'Air 12.5" 2019款', imgSrc: 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b7de0f5e0d32638ff7524660de209e5b.jpg?thumb=1&w=120&h=120' },
+    { name: '笔记本15.6" 独显', imgSrc: 'https://i8.mifile.cn/b2c-mimall-media/5c14cc0183352b8d6f4751a84016756c!120x120.png' }] }] },
+
+
+
+
+{
+  categoryName: '众筹',
+  subcategory: [
+  {
+    typeName: '众筹好物',
+    productList: [
+    { name: '机械表', imgSrc: 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/25287019d20f056e704b6af96bc5f333.png?thumb=1&w=120&h=120' },
+    { name: '螺丝刀', imgSrc: 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/bc9b520b3eca04e73c2d0080d171a5b1.png?thumb=1&w=120&h=120' },
+    { name: '电磁炉', imgSrc: 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/e32735617c9c42ee03508cb34ae0c29e.png?thumb=1&w=120&h=120' },
+    { name: '智能积木越野车', imgSrc: 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/fc80ccc38236f720c9da82ba1cfc4f0c.jpg?thumb=1&w=120&h=120' },
+    { name: '洁面机', imgSrc: 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/0053d931c2ba976914de50204f1e03d7.jpg?thumb=1&w=120&h=120' },
+    { name: '驱蚊器', imgSrc: 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/c8c18a482ec486d22395b9cf8959651d.jpg?thumb=1&w=120&h=120' },
+    { name: '净水器 600G	', imgSrc: 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/c3bc45fe22a56065496f8d460b51fdfc.jpg?thumb=1&w=120&h=120' },
+    { name: '无线吸尘器', imgSrc: 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/6c11fd92e902f3d7ae6f4d25e577c52b.png?thumb=1&w=120&h=120' },
+    { name: '投影仪 青春版', imgSrc: 'https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/855ca43ed3400bdbaeb0b08e246d1ff7.jpg?thumb=1&w=120&h=120' },
+    { name: '电暖器', imgSrc: 'https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/4ed25433bf165ba1bc009c2f37f8a010.jpg?thumb=1&w=120&h=120' },
+    { name: '照片打印机', imgSrc: 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/906df61431e627a11c1e784256863cab.jpg?thumb=1&w=120&h=120' },
+    { name: '智能门锁', imgSrc: 'https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/70e40f532eb8f91396579bbf2b818afe.jpg?thumb=1&w=120&h=120' },
+    { name: '米家吹风机', imgSrc: 'https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/e539bf483c8d2315597d57a2826f1dfb.jpg?thumb=1&w=120&h=120' },
+    { name: '洗手机套装', imgSrc: 'https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/a394a907ab7ddd6d83e1105a47902f09.jpg?thumb=1&w=120&h=120' },
+    { name: '米家新风机	', imgSrc: 'https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/9cd9a10a8e380ed57fe05c0e8ac63c44.jpg?thumb=1&w=120&h=120' }] },
+
+
+  {
+    typeName: '家庭装',
+    productList: [
+    { name: '温湿电子表三支装', imgSrc: 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/a7847bdcad1425c2e4ac17fbb8738b33.png?thumb=1&w=120&h=120' },
+    { name: '最生活10条装', imgSrc: 'https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/7434fb8cfce1067ade463665aa87e932.jpg?thumb=1&w=120&h=120' },
+    { name: '最生活100条装', imgSrc: 'https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/7434fb8cfce1067ade463665aa87e932.jpg?thumb=1&w=120&h=120' }] }] },
+
+
+
+
+{
+  categoryName: '手机',
+  subcategory: [
+  {
+    typeName: '小米手机',
+    productList: [
+    { name: '小米CC9', imgSrc: 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/ab6ac57a93749f70bb02023acb8e352c.png?thumb=1&w=120&h=120' },
+    { name: '小米CC9e', imgSrc: 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/23a98a5cf30d9077b3a143344615d6a3.png?thumb=1&w=120&h=120' },
+    { name: '小米CC9 美图版', imgSrc: 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/1fb429ab16761bf999742d2b0fc302c9.png?thumb=1&w=120&h=120' },
+    { name: '小米9', imgSrc: 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/80db44cd6d4334a845b1e2e8335f060b.png?thumb=1&w=120&h=120' },
+    { name: '小米9 SE', imgSrc: 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/a1948c1bea112bee09a4a9b2f6bfcbad.png?thumb=1&w=120&h=120' }] },
+
+
+  {
+    typeName: '红米Redmi',
+    productList: [
+    { name: 'Redmi K20 Pro', imgSrc: 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/c7616c2ddc8ca4546caf1f48bc31b24c.png?thumb=1&w=120&h=120' },
+    { name: 'Redmi K20', imgSrc: 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/728ffa7ec37de1e6a4badac29fdf3a0f.png?thumb=1&w=120&h=120' },
+    { name: 'Redmi 7A', imgSrc: 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/20838b39f8bc6bab9eabb519d50cf2dd.png?thumb=1&w=120&h=120' },
+    { name: 'Redmi 7', imgSrc: 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/19a0a988c92e861d10c84b4fda78264f.png?thumb=1&w=120&h=120' },
+    { name: 'Redmi Note 7 Pro', imgSrc: 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/4ce436f7215e54bff6d8e34b02c6b124.png?thumb=1&w=120&h=120' },
+    { name: 'Redmi Note 7', imgSrc: 'https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/23a250dfaba87009c28a627d3a292c76.png?thumb=1&w=120&h=120' }] },
+
+
+  {
+    typeName: '黑鲨游戏手机',
+    productList: [
+    { name: '黑鲨游戏手机 2', imgSrc: 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/96b660666abfc5b37cdea075e63e3ce6.jpg?thumb=1&w=120&h=120' }] },
+
+
+  {
+    typeName: '移动4G+专区',
+    productList: [
+    { name: '小米MIX 2S', imgSrc: 'https://i8.mifile.cn/b2c-mimall-media/209cdc7c6b58588d6d20569ac0ffd895!120x120.png' },
+    { name: 'Redmi Note 7 ', imgSrc: 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b6351b647b77d92596a71e290468589a.png?thumb=1&w=120&h=120' }] },
+
+
+  {
+    typeName: '手机配件',
+    productList: [
+    { name: '以旧换新', imgSrc: 'https://i8.mifile.cn/v1/a1/e55a5383-9b7f-1dfd-7f12-e648f69f5c41!120x120.png' },
+    { name: '定位电话', imgSrc: 'https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/f56e7030f11712746a6ba8f3002e6064.png?thumb=1&w=120&h=120' }] }] },
+
+
+
+
+{
+  categoryName: '电视',
+  subcategory: [
+  {
+    typeName: '电视',
+    productList: [
+    { name: '32-40英寸', imgSrc: '//i8.mifile.cn/b2c-mimall-media/033cfa4ab48b9d776dcb69e730022561!120x120.png' }] },
+
+
+  {
+    typeName: '盒子',
+    productList: [
+    { name: '盒子4', imgSrc: '//i8.mifile.cn/b2c-mimall-media/6f2896bb755fc5bc90c6d5db716660eb!120x120.jpg' }] },
+
+
+  {
+    typeName: '音箱',
+    productList: [
+    { name: '小米电视音响', imgSrc: '//i8.mifile.cn/b2c-mimall-media/665274982e2ce86c3fce921127e9dccd!120x120.jpg' }] },
+
+
+  {
+    typeName: '电视配件与会员',
+    productList: [
+    { name: '会员卡', imgSrc: '//i8.mifile.cn/b2c-mimall-media/114ee8a84c2080d15a167d1d23f5cf62!120x120.png' }] }] },
+
+
+
+
+{
+  categoryName: '电脑',
+  subcategory: [
+  {
+    typeName: '电脑',
+    productList: [
+    { name: '小米Air 12.5"', imgSrc: '//cdn.cnbj1.fds.api.mi-img.com/mi-mall/9da19c26b55c0c22fea23c3b8a31dc28.jpg?thumb=1&w=120&h=120' }] },
+
+
+  {
+    typeName: '电脑配件',
+    productList: [
+    { name: '鼠标/鼠标垫', imgSrc: '//i8.mifile.cn/v1/a1/2ca61893-68b9-d0a0-5f85-bdc28e655a3e!120x120.jpg' }] }] },
+
+
+
+
+{
+  categoryName: '智能',
+  subcategory: [
+  {
+    typeName: '智能',
+    productList: [
+    { name: '小爱老师', imgSrc: '//cdn.cnbj1.fds.api.mi-img.com/mi-mall/f7627c0014e279da55829cee0b51672c.png?thumb=1&w=120&h=120' }] }] },
+
+
+
+
+{
+  categoryName: '家用电器',
+  subcategory: [
+  {
+    typeName: '家电',
+    productList: [
+    { name: '壁挂空调', imgSrc: '//i8.mifile.cn/b2c-mimall-media/3f00551566f5b5f08f843403d8688a84!120x120.png' }] }] },
+
+
+
+
+{
+  categoryName: '厨房电器',
+  subcategory: [
+  {
+    typeName: '厨房家电',
+    productList: [
+    { name: '烟灶', imgSrc: '//cdn.cnbj1.fds.api.mi-img.com/mi-mall/027d129974f4d457e2021cce597feca4.png?thumb=1&w=120&h=120' }] }] },
+
+
+
+
+{
+  categoryName: '穿戴酷玩',
+  subcategory: [
+  {
+    typeName: '穿戴',
+    productList: [
+    { name: '手环', imgSrc: '//cdn.cnbj1.fds.api.mi-img.com/mi-mall/2ed49efd47937690ceec6330ffe9f764.png?thumb=1&w=120&h=120' }] },
+
+
+  {
+    typeName: '智能酷玩',
+    productList: [
+    { naem: '照相机', imgSrc: '//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/1099b7c4bf8ec9650130ac7b801556fd.jpg?thumb=1&w=120&h=120' }] }] },
+
+
+
+
+{
+  categoryName: '家居家装',
+  subcategory: [
+  {
+    typeName: '智能家居',
+    productList: [
+    { name: '智能家庭', imgSrc: '//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/60c481917f13192c4c98e1503c967b4a.png?thumb=1&w=120&h=120' }] },
+
+
+  {
+    typeName: '灯具',
+    productList: [
+    { naem: '台灯', imgSrc: '//i8.mifile.cn/b2c-mimall-media/4f1f3423af646b5182dd211ac7be7eaf!120x120.jpg' }] }] },
+
+
+
+
+{
+  categoryName: '电源插座',
+  subcategory: [
+  {
+    typeName: '电源',
+    productList: [
+    { name: '移动电源', imgSrc: '//i8.mifile.cn/v1/a1/3563cadb-795d-2240-c83d-9aeedd67ff4e!120x120.jpg' }] },
+
+
+  {
+    typeName: '插线板',
+    productList: [
+    { name: '插线板 含USB', imgSrc: '//i8.mifile.cn/b2c-mimall-media/2f68168635f76716669e70d3b0299b3d!120x120.jpg' }] },
+
+
+  {
+    typeName: '充电器',
+    productList: [
+    { name: '车充', imgSrc: '//cdn.cnbj1.fds.api.mi-img.com/mi-mall/a45463351a35af1407381a173b3c9ef9.jpg?thumb=1&w=120&h=120' }] }] },
+
+
+
+
+{
+  categoryName: '出行车载',
+  subcategory: [
+  {
+    typeName: '出行',
+    productList: [
+    { name: '平衡车', imgSrc: '//i8.mifile.cn/b2c-mimall-media/6c35232de6adf01edf626a01c7947f1c!120x120.png' }] }] },
+
+
+
+
+{
+  categoryName: '耳机音箱',
+  subcategory: [
+  {
+    typeName: '音箱',
+    productList: [
+    { name: '小爱音箱', imgSrc: '//cdn.cnbj1.fds.api.mi-img.com/mi-mall/9946e252a7c49662376c056ced004a20.jpg?thumb=1&w=120&h=120' }] },
+
+
+  {
+    typeName: '耳机',
+    productList: [
+    { name: '蓝牙耳机', imgSrc: '//cdn.cnbj1.fds.api.mi-img.com/mi-mall/cd7f38b4bef264fc34969cbe620bf42d.png?thumb=1&w=120&h=120' }] }] },
+
+
+
+
+{
+  categoryName: '路由器',
+  subcategory: [
+  {
+    typeName: '路由器',
+    productList: [
+    { name: '路由4A', imgSrc: '//cdn.cnbj1.fds.api.mi-img.com/mi-mall/3f1de02c01f94e2245f60184689bce59.jpg?thumb=1&w=120&h=120' }] },
+
+
+  {
+    typeName: '电力猫',
+    productList: [
+    { name: '电力猫 套装', imgSrc: '//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/a688c0c2cf5e7095de70b8a540455271.png?thumb=1&w=120&h=120' }] },
+
+
+  {
+    typeName: 'WIFI放大器',
+    productList: [
+    { name: '小米WiFi放大器 2', imgSrc: '//i8.mifile.cn/b2c-mimall-media/9fa0bf10b6b653a19969054096234def!120x120.jpg' }] }] },
+
+
+
+
+{
+  categoryName: '个护健康',
+  subcategory: [
+  {
+    typeName: '健康',
+    productList: [
+    { name: '体脂秤', imgSrc: '//i8.mifile.cn/b2c-mimall-media/a4b65e8fa2283eb4f156eb67e7a9347e!120x120.jpg' }] },
+
+
+  {
+    typeName: '个护',
+    productList: [
+    { name: '吹风机', imgSrc: '//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/7cf401b430f6fcce8f15f5f67403daa6.jpg?thumb=1&w=120&h=120' }] }] },
+
+
+
+
+{
+  categoryName: '日用百货',
+  subcategory: [
+  {
+    typeName: '生活用品',
+    productList: [
+    { name: '驱蚊器', imgSrc: '//i8.mifile.cn/b2c-mimall-media/6ab0453a9db0f0cd9709fefd08d54e75!120x120.jpg' }] },
+
+
+  {
+    typeName: '玩具',
+    productList: [
+    { name: '米兔', imgSrc: '//i8.mifile.cn/b2c-mimall-media/6a06b42cf3f0e8a7ddd682ec7f8cd0e4!120x120.jpg' }] }] },
+
+
+
+
+{
+  categoryName: '床品家具',
+  subcategory: [
+  {
+    typeName: '床品家具',
+    productList: [
+    { name: '床', imgSrc: '//cdn.cnbj1.fds.api.mi-img.com/mi-mall/2ef50a941e56f39ca665945b08a3a41a.jpg?thumb=1&w=120&h=120' }] }] },
+
+
+
+
+{
+  categoryName: '配件线材',
+  subcategory: [
+  {
+    typeName: '配件',
+    productList: [
+    { name: '数据线', imgSrc: '//i8.mifile.cn/b2c-mimall-media/4132366589e457f407b918fe48c89cb1!120x120.jpg' }] }] },
+
+
+
+
+{
+  categoryName: '办公用品',
+  subcategory: [
+  {
+    typeName: '办公用品',
+    productList: [
+    { name: '小爱老师', imgSrc: '//cdn.cnbj1.fds.api.mi-img.com/mi-mall/f7627c0014e279da55829cee0b51672c.png?thumb=1&w=120&h=120' }] }] },
+
+
+
+
+{
+  categoryName: '鞋服箱包',
+  subcategory: [
+  {
+    typeName: '服饰',
+    productList: [
+    { name: '眼镜', imgSrc: '//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/a8eba1e2d75beba2daad2678cf0718bb.png?thumb=1&w=120&h=120' }] },
+
+
+  {
+    typeName: '箱包',
+    productList: [
+    { name: '旅行箱', imgSrc: '//i8.mifile.cn/b2c-mimall-media/f8063766da26a8c01c7b49cbe5628e74!120x120.png' }] }] },
+
+
+
+
+{
+  categoryName: '儿童用品',
+  subcategory: [
+  {
+    typeName: '儿童',
+    productList: [
+    { name: '儿童手表', imgSrc: '//i8.mifile.cn/b2c-mimall-media/dbfe1ea1c2c5132eb6b88857798dde89!120x120.jpg' }] }] },
+
+
+
+
+{
+  categoryName: '家装',
+  subcategory: [
+  {
+    typeName: '家装',
+    productList: [
+    { name: '客厅', imgSrc: '//i8.mifile.cn/b2c-mimall-media/32b41ce4670faa718b9647c48ae65800!120x120.png' }] }] },
+
+
+
+
+{
+  categoryName: '礼品',
+  subcategory: [
+  {
+    typeName: '礼品',
+    productList: [
+    { name: '送长辈', imgSrc: '//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/3a168c437a5742f0c155fc240f4380de.png?thumb=1&w=120&h=120' }] }] },
+
+
+
+
+{
+  categoryName: '服务',
+  subcategory: [
+  {
+    typeName: '特色服务',
+    productList: [
+    { name: '手机保障服务', imgSrc: '//i8.mifile.cn/b2c-mimall-media/fd145936f30c4e3a9a48fa6b728d6aa9!120x120.png' }] }] },
+
+
+
+
+{
+  categoryName: '会员卡',
+  subcategory: [
+  {
+    typeName: '会员卡',
+    productList: [
+    { name: '云服务空间', imgSrc: '//i8.mifile.cn/b2c-mimall-media/1ee7460bc31fc976d21997eedd83c008!120x120.jpg' }] }] },
+
+
+
+
+{
+  categoryName: '米粉卡',
+  subcategory: [
+  {
+    typeName: '电话卡',
+    productList: [
+    { name: '日租卡', imgSrc: '//i8.mifile.cn/b2c-mimall-media/c77a4fb6ed743d36af9fbbcc32841b72!120x120.png' }] }] },
+
+
+
+
+{
+  categoryName: '零售店',
+  subcategory: [
+  {
+    typeName: '零售店',
+    productList: [
+    { name: '小米之家', imgSrc: '//i8.mifile.cn/b2c-mimall-media/36e61899896b5e7609e4bbc32b0471e3!120x120.png' }] }] }];var _default =
+
+
+
+
+
+product;exports.default = _default;
+
+/***/ }),
+
+/***/ "../../../../study/uni-app/demo/uni-app-mi/static/data/like.js":
+/*!**************************************************************!*\
+  !*** D:/D/study/uni-app/demo/uni-app-mi/static/data/like.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var like = [
+{
+  name: '小米Max 3  智能翻盖支架保护套',
+  imgSrc: '//cdn.cnbj1.fds.api.mi-img.com/mi-mall/c70d927ca6b19473bf0b5b74d68da7e2.jpg?thumb=1&w=360&h=360',
+  price: 30 },
+
+{
+  name: '小米中性笔',
+  imgSrc: '//i8.mifile.cn/b2c-mimall-media/69890fab4029a2dd0f9c81f4cfcb97a5!360x360.jpg',
+  price: 24.9 },
+
+{
+  name: '小米CC9 6GB+128GB',
+  imgSrc: '//cdn.cnbj1.fds.api.mi-img.com/mi-mall/477b561ea6b00e77e041ea73c881974e.jpg?thumb=1&w=360&h=360',
+  price: 1999 },
+
+{
+  name: '小米CC9 6GB+64GB',
+  imgSrc: '//cdn.cnbj1.fds.api.mi-img.com/mi-mall/477b561ea6b00e77e041ea73c881974e.jpg?thumb=1&w=360&h=360',
+  price: 1799 }];var _default =
+
+
+like;exports.default = _default;
+
+/***/ }),
+
+/***/ "../../../../study/uni-app/demo/uni-app-mi/static/data/phone.js":
+/*!***************************************************************!*\
+  !*** D:/D/study/uni-app/demo/uni-app-mi/static/data/phone.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var list = [
+{
+  'topIamgeUrl': 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/20ba0e86871afd110c163ce4be9cb709.jpg?thumb=1&w=720&h=120',
+  'shopList': [
+  {
+    'imageUrl': 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/d2bc1c7ff8c71628a28a5fce24caf245.jpg?thumb=1&w=360&h=360',
+    'name': '小米8 青春版',
+    'info': '索尼2400万自拍，超级夜景',
+    'price': 1049 },
+
+  {
+    'imageUrl': 'https://i8.mifile.cn/v1/a1/5cba31dd-3cda-1975-7d9c-e95363fc311e!360x360.webp',
+    'name': '小米8 屏幕指纹版',
+    'info': '全新升级十大功能，骁龙845',
+    'price': 1999 },
+
+  {
+    'imageUrl': 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/354cea8ad076cee24738091c68f95b07.jpg?thumb=1&w=360&h=360',
+    'name': '黑鲨游戏手机 Helo',
+    'info': '双液冷，更能打',
+    'price': 3199 },
+
+  {
+    'imageUrl': 'https://i8.mifile.cn/v1/a1/38a0996b-d3b7-a8f7-6997-b97004599a8e!360x360.webp',
+    'name': '红米6',
+    'info': '小屏高性能的双摄手机',
+    'price': 729 },
+
+  {
+    'imageUrl': 'https://i8.mifile.cn/v1/a1/2c506517-9477-c928-8e77-bee18b6818a1!360x360.webp',
+    'name': '红米6A',
+    'info': '好看耐用/轻巧省心',
+    'price': 549 },
+
+  {
+    'imageUrl': 'https://i8.mifile.cn/v1/a1/a20cff3d-2bd4-b98f-4eb5-fb08d8b43a2e!360x360.webp',
+    'name': '小米6X',
+    'info': '前置2000万，后置2000万',
+    'price': 999 },
+
+  {
+    'imageUrl': 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/a183eae8ce729005a1e1bf2907f6d51d.png?thumb=1&w=360&h=360',
+    'name': '小米Play（附带流量卡）',
+    'info': '自带高速流量',
+    'price': 899 },
+
+  {
+    'imageUrl': 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/a5be84661f1b82d1edef18f3a50a1b6f.jpg?thumb=1&w=360&h=360',
+    'name': '小米平板4',
+    'info': '大屏、长续航、超薄电脑',
+    'price': 1099 }] },
+
+
+
+{
+  'topIamgeUrl': 'https://i8.mifile.cn/v1/a1/4e530b7d-b8c5-7be4-3f29-9dc2ee40eebf!720x145.webp',
+  'shopList': [
+  {
+    'imageUrl': 'https://i8.mifile.cn/v1/a1/ea80f62f-f7d4-e055-4c60-ab60cf4eb9f3!344x280.webp',
+    'name': 'Redmi Note 7 Pro',
+    'info': '索尼4800万超清拍照 ',
+    'price': 1599 },
+
+  {
+    'imageUrl': 'https://i8.mifile.cn/v1/a1/ea80f62f-f7d4-e055-4c60-ab60cf4eb9f3!344x280.webp',
+    'name': 'Redmi Note 7 Pro',
+    'info': '索尼4800万超清拍照 ',
+    'price': 1599 },
+
+  {
+    'imageUrl': 'https://i8.mifile.cn/v1/a1/ea80f62f-f7d4-e055-4c60-ab60cf4eb9f3!344x280.webp',
+    'name': 'Redmi Note 7 Pro',
+    'info': '索尼4800万超清拍照 ',
+    'price': 1599 },
+
+  {
+    'imageUrl': 'https://i8.mifile.cn/v1/a1/ea80f62f-f7d4-e055-4c60-ab60cf4eb9f3!344x280.webp',
+    'name': 'Redmi Note 7 Pro',
+    'info': '索尼4800万超清拍照 ',
+    'price': 1599 },
+
+  {
+    'imageUrl': 'https://i8.mifile.cn/v1/a1/ea80f62f-f7d4-e055-4c60-ab60cf4eb9f3!344x280.webp',
+    'name': 'Redmi Note 7 Pro',
+    'info': '索尼4800万超清拍照 ',
+    'price': 1599 },
+
+  {
+    'imageUrl': 'https://i8.mifile.cn/v1/a1/ea80f62f-f7d4-e055-4c60-ab60cf4eb9f3!344x280.webp',
+    'name': 'Redmi Note 7 Pro',
+    'info': '索尼4800万超清拍照 ',
+    'price': 1599 }] },
+
+
+
+{
+  'topIamgeUrl': 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/20ba0e86871afd110c163ce4be9cb709.jpg?thumb=1&w=720&h=120',
+  'shopList': [
+  {
+    'imageUrl': 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/10ea8491fbe4eaedc48d4888024d8752.jpg?thumb=1&w=344&h=280',
+    'name': 'Redmi K20 Pro',
+    'info': '骁龙855， 弹出全面屏',
+    'price': 2499 },
+
+  {
+    'imageUrl': 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/10ea8491fbe4eaedc48d4888024d8752.jpg?thumb=1&w=344&h=280',
+    'name': 'Redmi K20 Pro',
+    'info': '骁龙855， 弹出全面屏',
+    'price': 2499 },
+
+  {
+    'imageUrl': 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/10ea8491fbe4eaedc48d4888024d8752.jpg?thumb=1&w=344&h=280',
+    'name': 'Redmi K20 Pro',
+    'info': '骁龙855， 弹出全面屏',
+    'price': 2499 },
+
+  {
+    'imageUrl': 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/10ea8491fbe4eaedc48d4888024d8752.jpg?thumb=1&w=344&h=280',
+    'name': 'Redmi K20 Pro',
+    'info': '骁龙855， 弹出全面屏',
+    'price': 2499 },
+
+  {
+    'imageUrl': 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/10ea8491fbe4eaedc48d4888024d8752.jpg?thumb=1&w=344&h=280',
+    'name': 'Redmi K20 Pro',
+    'info': '骁龙855， 弹出全面屏',
+    'price': 2499 },
+
+  {
+    'imageUrl': 'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/10ea8491fbe4eaedc48d4888024d8752.jpg?thumb=1&w=344&h=280',
+    'name': 'Redmi K20 Pro',
+    'info': '骁龙855， 弹出全面屏',
+    'price': 2499 }] }];var _default =
+
+
+
+
+list;exports.default = _default;
+
+/***/ }),
+
+/***/ "../../../../study/uni-app/demo/uni-app-mi/static/data/product.js":
+/*!*****************************************************************!*\
+  !*** D:/D/study/uni-app/demo/uni-app-mi/static/data/product.js ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var product = [
+{
+  typeId: 0,
+  typeName: 'phone',
+  goodsList: [
+  {
+    'goodsId': 0,
+    'imageUrl': [
+    'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/d2bc1c7ff8c71628a28a5fce24caf245.jpg?thumb=1&w=360&h=360',
+    '//i8.mifile.cn/v1/a1/f9cea6ca-2711-a7da-dd94-4468f0d591ec.webp',
+    '//i8.mifile.cn/v1/a1/1536b35d-2a41-9343-8a53-b8f5a679eede.webp',
+    '//i8.mifile.cn/v1/a1/5d30814e-27d0-6bd5-8515-f05afefffae8.webp'],
+
+    'name': '小米8 青春版',
+    'info': '索尼2400万自拍，超级夜景',
+    'price': 1049,
+    oldPrice: 1249 },
+
+  {
+    'goodsId': 1,
+    'imageUrl': [
+    'https://i8.mifile.cn/v1/a1/249ac9d7-680d-5014-2009-8a49a0da2a7c.webp',
+    '//i8.mifile.cn/v1/a1/f6969241-5174-61b3-a06a-a3bcfab69a75.webp',
+    '//i8.mifile.cn/v1/a1/99b9acdd-95d2-d7cc-2806-c900f38265f9.webp'],
+
+    'name': '小米8 屏幕指纹版',
+    'info': '全新升级十大功能，骁龙845',
+    'price': 1999,
+    oldPrice: 1249 },
+
+  {
+    'goodsId': 2,
+    'imageUrl': [
+    'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/354cea8ad076cee24738091c68f95b07.jpg?thumb=1&w=360&h=360',
+    '//i8.mifile.cn/v1/a1/80985354-0503-fa3f-1a9c-aa56ba2d682d.webp',
+    '//i8.mifile.cn/v1/a1/6b474a18-ead1-b287-9e58-07b281487209.webp'],
+
+    'name': '黑鲨游戏手机 Helo',
+    'info': '双液冷，更能打',
+    'price': 3199,
+    oldPrice: 1249 },
+
+  {
+    'goodsId': 3,
+    'imageUrl': [
+    'https://i8.mifile.cn/v1/a1/38a0996b-d3b7-a8f7-6997-b97004599a8e!360x360.webp',
+    '//i8.mifile.cn/v1/a1/3b58a57d-1f3e-9e6d-94b0-5c1ec1539d29.webp',
+    '//i8.mifile.cn/v1/a1/55286d9b-1d33-36d5-f1c2-2ea3cef483d6.webp',
+    '//i8.mifile.cn/v1/a1/bdc9eaf3-0470-8a63-1020-c8812def8263.webp'],
+
+    'name': '红米6',
+    'info': '小屏高性能的双摄手机',
+    'price': 729,
+    oldPrice: 1249 },
+
+  {
+    'goodsId': 4,
+    'imageUrl': [
+    'https://i8.mifile.cn/v1/a1/2c506517-9477-c928-8e77-bee18b6818a1!360x360.webp',
+    '//i8.mifile.cn/v1/a1/fe4285de-a35c-8ec5-dfbb-ff73696e753c.webp',
+    '//i8.mifile.cn/v1/a1/97f04715-4a9f-7a82-848f-2c1df63e29f7.webp',
+    '//i8.mifile.cn/v1/a1/72f637e1-4d84-89db-996e-ca730c76a593.webp'],
+
+    'name': '红米6A',
+    'info': '好看耐用/轻巧省心',
+    'price': 549,
+    oldPrice: 1249 },
+
+  {
+    'goodsId': 5,
+    'imageUrl': [
+    'https://i8.mifile.cn/v1/a1/a20cff3d-2bd4-b98f-4eb5-fb08d8b43a2e!360x360.webp',
+    '//i8.mifile.cn/v1/a1/3c359e84-a7ad-96a1-ed82-8e204ca0e7b6.webp',
+    '//i8.mifile.cn/v1/a1/f6ee756e-72dc-cfd4-f5c5-c7daa495ba70.webp',
+    '//i8.mifile.cn/v1/a1/0f5a44c9-5dff-c034-2d93-d7f9d04d99e8.webp'],
+
+    'name': '小米6X',
+    'info': '前置2000万，后置2000万',
+    'price': 999,
+    oldPrice: 1249 },
+
+  {
+    'goodsId': 6,
+    'imageUrl': [
+    'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/a183eae8ce729005a1e1bf2907f6d51d.png?thumb=1&w=360&h=360',
+    '//cdn.cnbj1.fds.api.mi-img.com/mi-mall/1f8e958393b1aad3dc080151abbea1d9.png?f=webp',
+    '//cdn.cnbj1.fds.api.mi-img.com/mi-mall/613f92a2d215f5e685e8bb6eca7cb34b.png?f=webp',
+    '//cdn.cnbj1.fds.api.mi-img.com/mi-mall/ded092175206c2a1bf9dbebc5cbfa61e.png?f=webp'],
+
+    'name': '小米Play（附带流量卡）',
+    'info': '自带高速流量',
+    'price': 899,
+    oldPrice: 1249 },
+
+  {
+    'goodsId': 7,
+    'imageUrl': [
+    'https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/a5be84661f1b82d1edef18f3a50a1b6f.jpg?thumb=1&w=360&h=360',
+    '//i8.mifile.cn/v1/a1/34a5d832-cb5b-a403-d473-3ae99d8699b9.webp',
+    '//i8.mifile.cn/v1/a1/3922d209-a3f5-8f21-2c01-13e1ba2452e9.webp',
+    '//i8.mifile.cn/v1/a1/676aebbd-3a5e-c431-4a69-43016422895a.webp'],
+
+    'name': '小米平板4',
+    'info': '大屏、长续航、超薄电脑',
+    'price': 1099,
+    oldPrice: 1249 }] },
+
+
+
+{
+  typeId: 1,
+  typeName: 'television',
+  goodsList: [
+  {
+    goodsId: 0,
+    imageUrl: [
+    'https://i8.mifile.cn/v1/a1/6017d231-019c-a76d-e54a-0bb6948bfd0d!360x360.webp',
+    '//i8.mifile.cn/v1/a1/67031c46-8c12-133e-25b7-56cbbc277939.webp'],
+
+    name: '电视4A 43" 青春版',
+    info: '人工智能语音，FHD全高清屏',
+    price: 1499,
+    oldPrice: 4999 },
+
+  {
+    goodsId: 1,
+    imageUrl: [
+    'http://i8.mifile.cn/v1/a1/d342ccbf-e3d6-2dcc-47a3-18656f28a0cc!360x360.webp'],
+
+    name: '小米电视4A 32英寸',
+    info: '人工智能系统，高清液晶屏',
+    price: 899,
+    oldPrice: 4999 },
+
+  {
+    goodsId: 2,
+    imageUrl: [
+    'http://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/7d4d94788f8591e5557a4c23c3ba4307.jpg?thumb=1&w=360&h=360',
+    '//i8.mifile.cn/v1/a1/9fd60730-764d-2ea9-c983-161f3de3d107.webp'],
+
+    name: '小米电视4A 58英寸',
+    info: '4K HDR，人工智能语音系统',
+    price: 3599,
+    oldPrice: 4999 },
+
+  {
+    goodsId: 3,
+    imageUrl: [
+    'http://i8.mifile.cn/v1/a1/c547c9f7-1703-a6ae-79e0-4e27912595f8!360x360.webp',
+    '//i8.mifile.cn/v1/a1/1fe20c3d-ad2b-fc82-e6f5-56de3b830051.webp'],
+
+    name: '小米电视4C 50英寸',
+    info: '4K HDR，钢琴烤漆',
+    price: 1899,
+    oldPrice: 2099 },
+
+  {
+    goodsId: 4,
+    imageUrl: [
+    'http://i8.mifile.cn/v1/a1/4e925115-fde0-0364-814e-34471fda46e5!360x360.webp',
+    '//i8.mifile.cn/v1/a1/ee70b3f7-8717-a26e-b746-849faec2ad2a.webp'],
+
+    name: '小米电视4X 55英寸',
+    info: '4K HDR，人工智能语音',
+    price: 2299,
+    oldPrice: 2399 },
+
+  {
+    goodsId: 5,
+    imageUrl: [
+    'http://i8.mifile.cn/v1/a1/b509d62f-a10a-6559-94f4-852b401815fb!360x360.webp',
+    '//i8.mifile.cn/v1/a1/ca755c3a-ccc3-ad91-b2e9-91bb8d8405d9.jpg'],
+
+    name: '小米电视4A 65英寸',
+    info: '4K HDR，人工智能语音系统',
+    price: 2999,
+    oldPrice: 3699 }] },
+
+
+
+{
+  typeId: 2,
+  typeName: 'appliances',
+  goodsList: [
+  {
+    goodsId: 0,
+    imageUrl: [
+    'http://i8.mifile.cn/v1/a1/c585ed38-bee4-2f3c-c413-a1af154a74b3!360x360.webp',
+    '//cdn.cnbj1.fds.api.mi-img.com/mi-mall/0d52800d097eda2ecbbea3f7361936f7.jpg'],
+
+    name: '米家互联网空调（一级能效）',
+    info: '1.5匹，全直流变频',
+    price: 2299,
+    oldPrice: 2699 },
+
+  {
+    goodsId: 1,
+    imageUrl: [
+    'http://cdn.cnbj1.fds.api.mi-img.com/mi-mall/552e42b8706ee8d0bd3e048d2a5c4316.jpg?thumb=1&w=360&h=360',
+    '//i8.mifile.cn/v1/a1/b3fb5566-ce77-2097-c5ca-e97e39c4b26c.webp'],
+
+    name: '米家洗烘一体机Pro',
+    info: '支持语音遥控、智能投放',
+    price: 2999,
+    oldPrice: 2699 },
+
+  {
+    goodsId: 2,
+    imageUrl: [
+    'http://i8.mifile.cn/v1/a1/75f5a1ad-e2c6-36a9-fd56-66d253cc0469!360x360.webp',
+    '//i8.mifile.cn/v1/a1/b3fb5566-ce77-2097-c5ca-e97e39c4b26c.webp'],
+
+    name: '米家空调',
+    info: '大1匹，静音，快速制冷热',
+    price: 1699,
+    oldPrice: 1799 },
+
+  {
+    goodsId: 3,
+    imageUrl: [
+    'http://i8.mifile.cn/v1/a1/27721d21-782a-32e8-772b-462652d9acde!360x360.webp',
+    '//i8.mifile.cn/v1/a1/1042d213-8b5b-478b-1816-f5dde3d6d265.webp'],
+
+    name: '米家洗烘一体机',
+    info: '洗得净、烘得干',
+    price: 2299,
+    oldPrice: 2699 },
+
+  {
+    goodsId: 4,
+    imageUrl: [
+    'http://i8.mifile.cn/v1/a1/ce8d4b39-18b3-5b8e-ea74-5a2c86856e20!360x360.webp',
+    '//i8.mifile.cn/v1/a1/887939d4-aefe-f051-54da-b30f837d6c69.webp'],
+
+    name: '米家互联网空调C1（一级能效）',
+    info: '1.5匹，自清洁，全直流变频',
+    price: 2499,
+    oldPrice: 2799 },
+
+  {
+    goodsId: 5,
+    imageUrl: [
+    'http://i8.mifile.cn/v1/a1/33c6d391-82a0-0fd2-2d0e-fb59f4679b6c!360x360.webp',
+    '//i8.mifile.cn/v1/a1/00678823-f015-49b4-4db1-32a1d9b5df06.webp'],
+
+    name: 'Redmi波轮洗衣机1A',
+    info: '大容量一次洗净全家衣物',
+    price: 899,
+    oldPrice: 2699 }] }];var _default =
+
+
+
+
+product;exports.default = _default;
+
+/***/ }),
+
+/***/ "../../../../study/uni-app/demo/uni-app-mi/static/data/television.js":
+/*!********************************************************************!*\
+  !*** D:/D/study/uni-app/demo/uni-app-mi/static/data/television.js ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var television = [
+{
+  imageUrl: 'https://i8.mifile.cn/v1/a1/6017d231-019c-a76d-e54a-0bb6948bfd0d!360x360.webp',
+  name: '电视4A 43" 青春版',
+  info: '人工智能语音，FHD全高清屏',
+  price: 1499,
+  oldPrice: 4999 },
+
+{
+  imageUrl: 'http://i8.mifile.cn/v1/a1/d342ccbf-e3d6-2dcc-47a3-18656f28a0cc!360x360.webp',
+  name: '小米电视4A 32英寸',
+  info: '人工智能系统，高清液晶屏',
+  price: 899,
+  oldPrice: 4999 },
+
+{
+  imageUrl: 'http://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/7d4d94788f8591e5557a4c23c3ba4307.jpg?thumb=1&w=360&h=360',
+  name: '小米电视4A 58英寸',
+  info: '4K HDR，人工智能语音系统',
+  price: 3599,
+  oldPrice: 4999 },
+
+{
+  imageUrl: 'http://i8.mifile.cn/v1/a1/c547c9f7-1703-a6ae-79e0-4e27912595f8!360x360.webp',
+  name: '小米电视4C 50英寸',
+  info: '4K HDR，钢琴烤漆',
+  price: 1899,
+  oldPrice: 2099 },
+
+{
+  imageUrl: 'http://i8.mifile.cn/v1/a1/4e925115-fde0-0364-814e-34471fda46e5!360x360.webp',
+  name: '小米电视4X 55英寸',
+  info: '4K HDR，人工智能语音',
+  price: 2299,
+  oldPrice: 2399 },
+
+{
+  imageUrl: 'http://i8.mifile.cn/v1/a1/b509d62f-a10a-6559-94f4-852b401815fb!360x360.webp',
+  name: '小米电视4A 65英寸',
+  info: '4K HDR，人工智能语音系统',
+  price: 2999,
+  oldPrice: 3699 }];var _default =
+
+
+television;exports.default = _default;
+
+/***/ }),
+
+/***/ "../../../../study/uni-app/demo/uni-app-mi/static/images/cart-off.png":
+/*!*********************************************************************!*\
+  !*** D:/D/study/uni-app/demo/uni-app-mi/static/images/cart-off.png ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADm0lEQVRYR+2XX2gcVRTGvzPrliYpJAERadEEBUGRhlJLKeJD37RapSCxqA/+KYl/YMs2mXNGpHagpcy9sySKRI2iVSsiUauUgqjQF32QWnypiviyYLXagrhRMogb75ELSVlsdjPUSfvivA1zz/1+c893zz2XcJkfusz6+B+AkiQZCoLgSwDllnQcYOa9lyI9pKpkjNlSKpVWeUHn3C4iWsfMWy8JwL9FjDEPAHhZRHr8N2PMWiJ6eyVgnHNPXmDCWq12k3PuGyK6LgzD+vT0dHl2dna3qq4pEKKfiCqquuUCgDiOg+7u7j9VdaeIHClQ9PxUSZLcQUTH+vr6Vi+5Da21XwD4dKWMaIzZS0T3MvPQkgDGmBcBXCMid63EClhrPwTwKzM/2m4FRlR1n4isWyGAH1X1oIi8sCRArVbb5Jw7US6X+6vVaqNIiDRNr1LVs6q6WUROLAngnd9oNLwRt0VR9LEHsNbeSkStxSo3FxH9Mj4+/p0PSJLkTiI66g04OjrabHsWGGO+JqK3mDnxxSpN0zMArs6t2jJQVX8QkYGFH3kGwA5m3uDf2wJYaw+r6ioRue9iRNvFWGuPquo5EdnVESBJkj1BEDzGzDcUCWCM+QnAfhF5qSOAMWYrER3PsqwnjuOsCIgWA24SkZMdASYnJ/uazeZvzrnboij6vCCA7ar6fm9vb483YEeAhYOoTkQTzPx8EQDGmJiItjPzxsX5OnZE1tojqtoQkUcKAjgG4IyIjOQCMMY8TUQHihBfnMM5NxJF0Su5AKamptZkWXZLkQADAwOfDQ8P/50LoEjhdnPl6orTNL3HOXc/gKaqHl4sz8sBJknSS0QCYD0RnXLOJVEUzbbGLQtgjKkASInoAwC+TfNH9MPM/HongDRNe5xzXwEIiOgjVd0B4K8gCNaHYTiXKwUTExNd8/PzvhY8FEXROz4oTdN9qrony7L+OI5dh5LLAJ4YHBy83ue8Vqtd6Zw7qaqvisj+XABpmt6sqqfK5fLaarX680JtuJGIvi2VSteOjY2d7gDwhqqWROTBxTHGmNeIqJuZd+YCWGhI/wAgzPycD7LWPg7gIDP3d0qBMSYEUAmCYGMYhudmZmZK9Xr9eyI6xMznt/ayHrDW7gbwLIB3Afi7wzZVHRWRQzk94Lvp9wDcDuCKrq6uDZVK5fdcK9CydHcD8PeFJhG9ycyfLLcD/HdfR+bm5p5S1aGL3gV5hP7LmH8AQWeelt1dwu0AAAAASUVORK5CYII="
+
+/***/ }),
+
+/***/ "../../../../study/uni-app/demo/uni-app-mi/static/images/home-off.png":
+/*!*********************************************************************!*\
+  !*** D:/D/study/uni-app/demo/uni-app-mi/static/images/home-off.png ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAgCAYAAACcuBHKAAADk0lEQVRYR+2WT4gcVRDG6+vu4JjWoKAEFIx4VHMKBJFIYlgJKBFFI4IGFNFV1qzJMu91Lyw4IMvs625GMrh48CIeRNAkeshBDbKJGhGiQsjRg3r0D5owO7s421Xhhe7Qzs5Mz0zibfvUUO9V/ep79aoe6Bq+RqNxY6fTOSoi74dheHZcVxh34+Li4k2tVutzAPcS0Q3MPDEuyFgQFmB5efkrEdmytra22/O8OQAvAXhUKbU0amIjQzSbzS2rq6unLIDruruq1eqfNmgURTERHRKR/UEQfDkKyEgQGcBpEdnkuu6eHCAPmIG8ISKPjQIyNES9Xr/VdV17BJuY+aHZ2dm/e2WbgzDzk2EYnhxGkaEgLIDjOF9bh4MA8oBxHL/JzHOO4zyjlDpRBlIKkSTJbWmaLgHopGm6t58C3YGiKKoS0QKAA2UgAyEygG8ArFQqld3T09OXyrIq2nMQZn4+DMOP+u3tCzE/P7/V87zTAC5VKpWJUQEKxVoVESMiz/UD6QmRAZwF8Jfv+3unpqZaoyjQvdYY8zoRHQXwotb6g277OohGo3Fnp9M5c70A8oAWBECTmSfDMHyvCPIfiAzAKvCH7/t7rlWBHsWqicgw8ytFkKsQSZJsS9PUKnCXlU5rfXjQEWSt+6CITBDRRQBL7Xb7w1qtttZv38LCwnbHcc5bu4gcCoLgHft/BcICMPO3ItICsJmIjg+CKMyOrQBOish9RLSLiJpBEBwpgxARO/j2EZHSWieo1+v3uK57xgLYWZD1hFODIIwxbwOYbLfbt9RqtX9tUGPMu0T0gtZ6MwDpBZIrAeABZn4WgFVbwRjzKxGt5MPIGHMBQBnEd7ZutNaPFwrvCQAnHMe5u1qtWp/rviKEUur7LJnDiKLoNQDHlFK/ZxkNA/ExEe0MgmBboR/MEdFbvu/f3K+guyGyeAfXXdEhlXgYgB3XnzDzcQD3E9GrAH7WWj9YVhP2OKwS+bqxIOzmKIoOiMgigNszZz84jvNUv6Owa3opcfV2FMmHUSJfLyJIkmR7mqb/hGH4W1lX/V8gyoJ22zcgckU2lNhQYuzbEUXRT0R0Tmv98qhXsGx9kiQ7mPkcEe3QWv84qGN+BmCnUuqOftOwLFgvu21scRzbSTvZPV96te1HAHwhIr8Q0af2wTJO0K49DhHts8kR0TGt9dNFe8+HbhzH+0VkJn/0XAeI3MUFz/PUzMzMStHnZbWUGebCoGAsAAAAAElFTkSuQmCC"
+
+/***/ }),
+
+/***/ "../../../../study/uni-app/demo/uni-app-mi/store/index.js":
+/*!*********************************************************!*\
+  !*** D:/D/study/uni-app/demo/uni-app-mi/store/index.js ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _vuex = _interopRequireDefault(__webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+_vue.default.use(_vuex.default);
+var store = new _vuex.default.Store({
+  state: {
+    tabBarIndex: 0,
+    cartList: [] },
+
+  mutations: {
+    changeTabBarIndex: function changeTabBarIndex(state, index) {
+      state.tabBarIndex = index;
+    },
+    changeCartList: function changeCartList(state, cartItem) {
+      var arr = state.cartList;
+      var isPush = true;
+      arr.forEach(function (value, index) {
+        if (value.typeId == cartItem.typeId && value.goodsId == cartItem.goodsId) {
+          value.num += 1;
+          isPush = false;
+        }
+      });
+      if (isPush) {
+        state.cartList.push(cartItem);
+      }
+    },
+    delCartItem: function delCartItem(state, index) {
+      state.cartList.splice(index, 1);
+    },
+    addCartItemNum: function addCartItemNum(state, index) {
+      var arr = state.cartList;
+      console.log(arr[index]);
+      arr[index]['num']++;
+    },
+    reduceCartItemNum: function reduceCartItemNum(state, index) {
+      var arr = state.cartList;
+      if (arr[index]['num'] > 1) {
+        arr[index]['num']--;
+      }
+    } },
+
+  actions: {
+    changeTabBarIndex: function changeTabBarIndex(commit, index) {
+      commit("changeTabBarIndex", index);
+    },
+    changeCartList: function changeCartList(commit, cartItem) {
+      commit('changeCartList', cartItem);
+    } } });var _default =
+
+
+store;exports.default = _default;
 
 /***/ }),
 
@@ -6780,6 +7976,957 @@ function normalizeComponent (
     options: options
   }
 }
+
+
+/***/ }),
+
+/***/ "./node_modules/vuex/dist/vuex.esm.js":
+/*!********************************************!*\
+  !*** ./node_modules/vuex/dist/vuex.esm.js ***!
+  \********************************************/
+/*! exports provided: Store, install, mapState, mapMutations, mapGetters, mapActions, createNamespacedHelpers, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Store", function() { return Store; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "install", function() { return install; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "mapState", function() { return mapState; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "mapMutations", function() { return mapMutations; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "mapGetters", function() { return mapGetters; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "mapActions", function() { return mapActions; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createNamespacedHelpers", function() { return createNamespacedHelpers; });
+/**
+ * vuex v3.0.1
+ * (c) 2017 Evan You
+ * @license MIT
+ */
+var applyMixin = function (Vue) {
+  var version = Number(Vue.version.split('.')[0]);
+
+  if (version >= 2) {
+    Vue.mixin({ beforeCreate: vuexInit });
+  } else {
+    // override init and inject vuex init procedure
+    // for 1.x backwards compatibility.
+    var _init = Vue.prototype._init;
+    Vue.prototype._init = function (options) {
+      if ( options === void 0 ) options = {};
+
+      options.init = options.init
+        ? [vuexInit].concat(options.init)
+        : vuexInit;
+      _init.call(this, options);
+    };
+  }
+
+  /**
+   * Vuex init hook, injected into each instances init hooks list.
+   */
+
+  function vuexInit () {
+    var options = this.$options;
+    // store injection
+    if (options.store) {
+      this.$store = typeof options.store === 'function'
+        ? options.store()
+        : options.store;
+    } else if (options.parent && options.parent.$store) {
+      this.$store = options.parent.$store;
+    }
+  }
+};
+
+var devtoolHook =
+  typeof window !== 'undefined' &&
+  window.__VUE_DEVTOOLS_GLOBAL_HOOK__;
+
+function devtoolPlugin (store) {
+  if (!devtoolHook) { return }
+
+  store._devtoolHook = devtoolHook;
+
+  devtoolHook.emit('vuex:init', store);
+
+  devtoolHook.on('vuex:travel-to-state', function (targetState) {
+    store.replaceState(targetState);
+  });
+
+  store.subscribe(function (mutation, state) {
+    devtoolHook.emit('vuex:mutation', mutation, state);
+  });
+}
+
+/**
+ * Get the first item that pass the test
+ * by second argument function
+ *
+ * @param {Array} list
+ * @param {Function} f
+ * @return {*}
+ */
+/**
+ * Deep copy the given object considering circular structure.
+ * This function caches all nested objects and its copies.
+ * If it detects circular structure, use cached copy to avoid infinite loop.
+ *
+ * @param {*} obj
+ * @param {Array<Object>} cache
+ * @return {*}
+ */
+
+
+/**
+ * forEach for object
+ */
+function forEachValue (obj, fn) {
+  Object.keys(obj).forEach(function (key) { return fn(obj[key], key); });
+}
+
+function isObject (obj) {
+  return obj !== null && typeof obj === 'object'
+}
+
+function isPromise (val) {
+  return val && typeof val.then === 'function'
+}
+
+function assert (condition, msg) {
+  if (!condition) { throw new Error(("[vuex] " + msg)) }
+}
+
+var Module = function Module (rawModule, runtime) {
+  this.runtime = runtime;
+  this._children = Object.create(null);
+  this._rawModule = rawModule;
+  var rawState = rawModule.state;
+  this.state = (typeof rawState === 'function' ? rawState() : rawState) || {};
+};
+
+var prototypeAccessors$1 = { namespaced: { configurable: true } };
+
+prototypeAccessors$1.namespaced.get = function () {
+  return !!this._rawModule.namespaced
+};
+
+Module.prototype.addChild = function addChild (key, module) {
+  this._children[key] = module;
+};
+
+Module.prototype.removeChild = function removeChild (key) {
+  delete this._children[key];
+};
+
+Module.prototype.getChild = function getChild (key) {
+  return this._children[key]
+};
+
+Module.prototype.update = function update (rawModule) {
+  this._rawModule.namespaced = rawModule.namespaced;
+  if (rawModule.actions) {
+    this._rawModule.actions = rawModule.actions;
+  }
+  if (rawModule.mutations) {
+    this._rawModule.mutations = rawModule.mutations;
+  }
+  if (rawModule.getters) {
+    this._rawModule.getters = rawModule.getters;
+  }
+};
+
+Module.prototype.forEachChild = function forEachChild (fn) {
+  forEachValue(this._children, fn);
+};
+
+Module.prototype.forEachGetter = function forEachGetter (fn) {
+  if (this._rawModule.getters) {
+    forEachValue(this._rawModule.getters, fn);
+  }
+};
+
+Module.prototype.forEachAction = function forEachAction (fn) {
+  if (this._rawModule.actions) {
+    forEachValue(this._rawModule.actions, fn);
+  }
+};
+
+Module.prototype.forEachMutation = function forEachMutation (fn) {
+  if (this._rawModule.mutations) {
+    forEachValue(this._rawModule.mutations, fn);
+  }
+};
+
+Object.defineProperties( Module.prototype, prototypeAccessors$1 );
+
+var ModuleCollection = function ModuleCollection (rawRootModule) {
+  // register root module (Vuex.Store options)
+  this.register([], rawRootModule, false);
+};
+
+ModuleCollection.prototype.get = function get (path) {
+  return path.reduce(function (module, key) {
+    return module.getChild(key)
+  }, this.root)
+};
+
+ModuleCollection.prototype.getNamespace = function getNamespace (path) {
+  var module = this.root;
+  return path.reduce(function (namespace, key) {
+    module = module.getChild(key);
+    return namespace + (module.namespaced ? key + '/' : '')
+  }, '')
+};
+
+ModuleCollection.prototype.update = function update$1 (rawRootModule) {
+  update([], this.root, rawRootModule);
+};
+
+ModuleCollection.prototype.register = function register (path, rawModule, runtime) {
+    var this$1 = this;
+    if ( runtime === void 0 ) runtime = true;
+
+  if (true) {
+    assertRawModule(path, rawModule);
+  }
+
+  var newModule = new Module(rawModule, runtime);
+  if (path.length === 0) {
+    this.root = newModule;
+  } else {
+    var parent = this.get(path.slice(0, -1));
+    parent.addChild(path[path.length - 1], newModule);
+  }
+
+  // register nested modules
+  if (rawModule.modules) {
+    forEachValue(rawModule.modules, function (rawChildModule, key) {
+      this$1.register(path.concat(key), rawChildModule, runtime);
+    });
+  }
+};
+
+ModuleCollection.prototype.unregister = function unregister (path) {
+  var parent = this.get(path.slice(0, -1));
+  var key = path[path.length - 1];
+  if (!parent.getChild(key).runtime) { return }
+
+  parent.removeChild(key);
+};
+
+function update (path, targetModule, newModule) {
+  if (true) {
+    assertRawModule(path, newModule);
+  }
+
+  // update target module
+  targetModule.update(newModule);
+
+  // update nested modules
+  if (newModule.modules) {
+    for (var key in newModule.modules) {
+      if (!targetModule.getChild(key)) {
+        if (true) {
+          console.warn(
+            "[vuex] trying to add a new module '" + key + "' on hot reloading, " +
+            'manual reload is needed'
+          );
+        }
+        return
+      }
+      update(
+        path.concat(key),
+        targetModule.getChild(key),
+        newModule.modules[key]
+      );
+    }
+  }
+}
+
+var functionAssert = {
+  assert: function (value) { return typeof value === 'function'; },
+  expected: 'function'
+};
+
+var objectAssert = {
+  assert: function (value) { return typeof value === 'function' ||
+    (typeof value === 'object' && typeof value.handler === 'function'); },
+  expected: 'function or object with "handler" function'
+};
+
+var assertTypes = {
+  getters: functionAssert,
+  mutations: functionAssert,
+  actions: objectAssert
+};
+
+function assertRawModule (path, rawModule) {
+  Object.keys(assertTypes).forEach(function (key) {
+    if (!rawModule[key]) { return }
+
+    var assertOptions = assertTypes[key];
+
+    forEachValue(rawModule[key], function (value, type) {
+      assert(
+        assertOptions.assert(value),
+        makeAssertionMessage(path, key, type, value, assertOptions.expected)
+      );
+    });
+  });
+}
+
+function makeAssertionMessage (path, key, type, value, expected) {
+  var buf = key + " should be " + expected + " but \"" + key + "." + type + "\"";
+  if (path.length > 0) {
+    buf += " in module \"" + (path.join('.')) + "\"";
+  }
+  buf += " is " + (JSON.stringify(value)) + ".";
+  return buf
+}
+
+var Vue; // bind on install
+
+var Store = function Store (options) {
+  var this$1 = this;
+  if ( options === void 0 ) options = {};
+
+  // Auto install if it is not done yet and `window` has `Vue`.
+  // To allow users to avoid auto-installation in some cases,
+  // this code should be placed here. See #731
+  if (!Vue && typeof window !== 'undefined' && window.Vue) {
+    install(window.Vue);
+  }
+
+  if (true) {
+    assert(Vue, "must call Vue.use(Vuex) before creating a store instance.");
+    assert(typeof Promise !== 'undefined', "vuex requires a Promise polyfill in this browser.");
+    assert(this instanceof Store, "Store must be called with the new operator.");
+  }
+
+  var plugins = options.plugins; if ( plugins === void 0 ) plugins = [];
+  var strict = options.strict; if ( strict === void 0 ) strict = false;
+
+  var state = options.state; if ( state === void 0 ) state = {};
+  if (typeof state === 'function') {
+    state = state() || {};
+  }
+
+  // store internal state
+  this._committing = false;
+  this._actions = Object.create(null);
+  this._actionSubscribers = [];
+  this._mutations = Object.create(null);
+  this._wrappedGetters = Object.create(null);
+  this._modules = new ModuleCollection(options);
+  this._modulesNamespaceMap = Object.create(null);
+  this._subscribers = [];
+  this._watcherVM = new Vue();
+
+  // bind commit and dispatch to self
+  var store = this;
+  var ref = this;
+  var dispatch = ref.dispatch;
+  var commit = ref.commit;
+  this.dispatch = function boundDispatch (type, payload) {
+    return dispatch.call(store, type, payload)
+  };
+  this.commit = function boundCommit (type, payload, options) {
+    return commit.call(store, type, payload, options)
+  };
+
+  // strict mode
+  this.strict = strict;
+
+  // init root module.
+  // this also recursively registers all sub-modules
+  // and collects all module getters inside this._wrappedGetters
+  installModule(this, state, [], this._modules.root);
+
+  // initialize the store vm, which is responsible for the reactivity
+  // (also registers _wrappedGetters as computed properties)
+  resetStoreVM(this, state);
+
+  // apply plugins
+  plugins.forEach(function (plugin) { return plugin(this$1); });
+
+  if (Vue.config.devtools) {
+    devtoolPlugin(this);
+  }
+};
+
+var prototypeAccessors = { state: { configurable: true } };
+
+prototypeAccessors.state.get = function () {
+  return this._vm._data.$$state
+};
+
+prototypeAccessors.state.set = function (v) {
+  if (true) {
+    assert(false, "Use store.replaceState() to explicit replace store state.");
+  }
+};
+
+Store.prototype.commit = function commit (_type, _payload, _options) {
+    var this$1 = this;
+
+  // check object-style commit
+  var ref = unifyObjectStyle(_type, _payload, _options);
+    var type = ref.type;
+    var payload = ref.payload;
+    var options = ref.options;
+
+  var mutation = { type: type, payload: payload };
+  var entry = this._mutations[type];
+  if (!entry) {
+    if (true) {
+      console.error(("[vuex] unknown mutation type: " + type));
+    }
+    return
+  }
+  this._withCommit(function () {
+    entry.forEach(function commitIterator (handler) {
+      handler(payload);
+    });
+  });
+  this._subscribers.forEach(function (sub) { return sub(mutation, this$1.state); });
+
+  if (
+     true &&
+    options && options.silent
+  ) {
+    console.warn(
+      "[vuex] mutation type: " + type + ". Silent option has been removed. " +
+      'Use the filter functionality in the vue-devtools'
+    );
+  }
+};
+
+Store.prototype.dispatch = function dispatch (_type, _payload) {
+    var this$1 = this;
+
+  // check object-style dispatch
+  var ref = unifyObjectStyle(_type, _payload);
+    var type = ref.type;
+    var payload = ref.payload;
+
+  var action = { type: type, payload: payload };
+  var entry = this._actions[type];
+  if (!entry) {
+    if (true) {
+      console.error(("[vuex] unknown action type: " + type));
+    }
+    return
+  }
+
+  this._actionSubscribers.forEach(function (sub) { return sub(action, this$1.state); });
+
+  return entry.length > 1
+    ? Promise.all(entry.map(function (handler) { return handler(payload); }))
+    : entry[0](payload)
+};
+
+Store.prototype.subscribe = function subscribe (fn) {
+  return genericSubscribe(fn, this._subscribers)
+};
+
+Store.prototype.subscribeAction = function subscribeAction (fn) {
+  return genericSubscribe(fn, this._actionSubscribers)
+};
+
+Store.prototype.watch = function watch (getter, cb, options) {
+    var this$1 = this;
+
+  if (true) {
+    assert(typeof getter === 'function', "store.watch only accepts a function.");
+  }
+  return this._watcherVM.$watch(function () { return getter(this$1.state, this$1.getters); }, cb, options)
+};
+
+Store.prototype.replaceState = function replaceState (state) {
+    var this$1 = this;
+
+  this._withCommit(function () {
+    this$1._vm._data.$$state = state;
+  });
+};
+
+Store.prototype.registerModule = function registerModule (path, rawModule, options) {
+    if ( options === void 0 ) options = {};
+
+  if (typeof path === 'string') { path = [path]; }
+
+  if (true) {
+    assert(Array.isArray(path), "module path must be a string or an Array.");
+    assert(path.length > 0, 'cannot register the root module by using registerModule.');
+  }
+
+  this._modules.register(path, rawModule);
+  installModule(this, this.state, path, this._modules.get(path), options.preserveState);
+  // reset store to update getters...
+  resetStoreVM(this, this.state);
+};
+
+Store.prototype.unregisterModule = function unregisterModule (path) {
+    var this$1 = this;
+
+  if (typeof path === 'string') { path = [path]; }
+
+  if (true) {
+    assert(Array.isArray(path), "module path must be a string or an Array.");
+  }
+
+  this._modules.unregister(path);
+  this._withCommit(function () {
+    var parentState = getNestedState(this$1.state, path.slice(0, -1));
+    Vue.delete(parentState, path[path.length - 1]);
+  });
+  resetStore(this);
+};
+
+Store.prototype.hotUpdate = function hotUpdate (newOptions) {
+  this._modules.update(newOptions);
+  resetStore(this, true);
+};
+
+Store.prototype._withCommit = function _withCommit (fn) {
+  var committing = this._committing;
+  this._committing = true;
+  fn();
+  this._committing = committing;
+};
+
+Object.defineProperties( Store.prototype, prototypeAccessors );
+
+function genericSubscribe (fn, subs) {
+  if (subs.indexOf(fn) < 0) {
+    subs.push(fn);
+  }
+  return function () {
+    var i = subs.indexOf(fn);
+    if (i > -1) {
+      subs.splice(i, 1);
+    }
+  }
+}
+
+function resetStore (store, hot) {
+  store._actions = Object.create(null);
+  store._mutations = Object.create(null);
+  store._wrappedGetters = Object.create(null);
+  store._modulesNamespaceMap = Object.create(null);
+  var state = store.state;
+  // init all modules
+  installModule(store, state, [], store._modules.root, true);
+  // reset vm
+  resetStoreVM(store, state, hot);
+}
+
+function resetStoreVM (store, state, hot) {
+  var oldVm = store._vm;
+
+  // bind store public getters
+  store.getters = {};
+  var wrappedGetters = store._wrappedGetters;
+  var computed = {};
+  forEachValue(wrappedGetters, function (fn, key) {
+    // use computed to leverage its lazy-caching mechanism
+    computed[key] = function () { return fn(store); };
+    Object.defineProperty(store.getters, key, {
+      get: function () { return store._vm[key]; },
+      enumerable: true // for local getters
+    });
+  });
+
+  // use a Vue instance to store the state tree
+  // suppress warnings just in case the user has added
+  // some funky global mixins
+  var silent = Vue.config.silent;
+  Vue.config.silent = true;
+  store._vm = new Vue({
+    data: {
+      $$state: state
+    },
+    computed: computed
+  });
+  Vue.config.silent = silent;
+
+  // enable strict mode for new vm
+  if (store.strict) {
+    enableStrictMode(store);
+  }
+
+  if (oldVm) {
+    if (hot) {
+      // dispatch changes in all subscribed watchers
+      // to force getter re-evaluation for hot reloading.
+      store._withCommit(function () {
+        oldVm._data.$$state = null;
+      });
+    }
+    Vue.nextTick(function () { return oldVm.$destroy(); });
+  }
+}
+
+function installModule (store, rootState, path, module, hot) {
+  var isRoot = !path.length;
+  var namespace = store._modules.getNamespace(path);
+
+  // register in namespace map
+  if (module.namespaced) {
+    store._modulesNamespaceMap[namespace] = module;
+  }
+
+  // set state
+  if (!isRoot && !hot) {
+    var parentState = getNestedState(rootState, path.slice(0, -1));
+    var moduleName = path[path.length - 1];
+    store._withCommit(function () {
+      Vue.set(parentState, moduleName, module.state);
+    });
+  }
+
+  var local = module.context = makeLocalContext(store, namespace, path);
+
+  module.forEachMutation(function (mutation, key) {
+    var namespacedType = namespace + key;
+    registerMutation(store, namespacedType, mutation, local);
+  });
+
+  module.forEachAction(function (action, key) {
+    var type = action.root ? key : namespace + key;
+    var handler = action.handler || action;
+    registerAction(store, type, handler, local);
+  });
+
+  module.forEachGetter(function (getter, key) {
+    var namespacedType = namespace + key;
+    registerGetter(store, namespacedType, getter, local);
+  });
+
+  module.forEachChild(function (child, key) {
+    installModule(store, rootState, path.concat(key), child, hot);
+  });
+}
+
+/**
+ * make localized dispatch, commit, getters and state
+ * if there is no namespace, just use root ones
+ */
+function makeLocalContext (store, namespace, path) {
+  var noNamespace = namespace === '';
+
+  var local = {
+    dispatch: noNamespace ? store.dispatch : function (_type, _payload, _options) {
+      var args = unifyObjectStyle(_type, _payload, _options);
+      var payload = args.payload;
+      var options = args.options;
+      var type = args.type;
+
+      if (!options || !options.root) {
+        type = namespace + type;
+        if ( true && !store._actions[type]) {
+          console.error(("[vuex] unknown local action type: " + (args.type) + ", global type: " + type));
+          return
+        }
+      }
+
+      return store.dispatch(type, payload)
+    },
+
+    commit: noNamespace ? store.commit : function (_type, _payload, _options) {
+      var args = unifyObjectStyle(_type, _payload, _options);
+      var payload = args.payload;
+      var options = args.options;
+      var type = args.type;
+
+      if (!options || !options.root) {
+        type = namespace + type;
+        if ( true && !store._mutations[type]) {
+          console.error(("[vuex] unknown local mutation type: " + (args.type) + ", global type: " + type));
+          return
+        }
+      }
+
+      store.commit(type, payload, options);
+    }
+  };
+
+  // getters and state object must be gotten lazily
+  // because they will be changed by vm update
+  Object.defineProperties(local, {
+    getters: {
+      get: noNamespace
+        ? function () { return store.getters; }
+        : function () { return makeLocalGetters(store, namespace); }
+    },
+    state: {
+      get: function () { return getNestedState(store.state, path); }
+    }
+  });
+
+  return local
+}
+
+function makeLocalGetters (store, namespace) {
+  var gettersProxy = {};
+
+  var splitPos = namespace.length;
+  Object.keys(store.getters).forEach(function (type) {
+    // skip if the target getter is not match this namespace
+    if (type.slice(0, splitPos) !== namespace) { return }
+
+    // extract local getter type
+    var localType = type.slice(splitPos);
+
+    // Add a port to the getters proxy.
+    // Define as getter property because
+    // we do not want to evaluate the getters in this time.
+    Object.defineProperty(gettersProxy, localType, {
+      get: function () { return store.getters[type]; },
+      enumerable: true
+    });
+  });
+
+  return gettersProxy
+}
+
+function registerMutation (store, type, handler, local) {
+  var entry = store._mutations[type] || (store._mutations[type] = []);
+  entry.push(function wrappedMutationHandler (payload) {
+    handler.call(store, local.state, payload);
+  });
+}
+
+function registerAction (store, type, handler, local) {
+  var entry = store._actions[type] || (store._actions[type] = []);
+  entry.push(function wrappedActionHandler (payload, cb) {
+    var res = handler.call(store, {
+      dispatch: local.dispatch,
+      commit: local.commit,
+      getters: local.getters,
+      state: local.state,
+      rootGetters: store.getters,
+      rootState: store.state
+    }, payload, cb);
+    if (!isPromise(res)) {
+      res = Promise.resolve(res);
+    }
+    if (store._devtoolHook) {
+      return res.catch(function (err) {
+        store._devtoolHook.emit('vuex:error', err);
+        throw err
+      })
+    } else {
+      return res
+    }
+  });
+}
+
+function registerGetter (store, type, rawGetter, local) {
+  if (store._wrappedGetters[type]) {
+    if (true) {
+      console.error(("[vuex] duplicate getter key: " + type));
+    }
+    return
+  }
+  store._wrappedGetters[type] = function wrappedGetter (store) {
+    return rawGetter(
+      local.state, // local state
+      local.getters, // local getters
+      store.state, // root state
+      store.getters // root getters
+    )
+  };
+}
+
+function enableStrictMode (store) {
+  store._vm.$watch(function () { return this._data.$$state }, function () {
+    if (true) {
+      assert(store._committing, "Do not mutate vuex store state outside mutation handlers.");
+    }
+  }, { deep: true, sync: true });
+}
+
+function getNestedState (state, path) {
+  return path.length
+    ? path.reduce(function (state, key) { return state[key]; }, state)
+    : state
+}
+
+function unifyObjectStyle (type, payload, options) {
+  if (isObject(type) && type.type) {
+    options = payload;
+    payload = type;
+    type = type.type;
+  }
+
+  if (true) {
+    assert(typeof type === 'string', ("Expects string as the type, but found " + (typeof type) + "."));
+  }
+
+  return { type: type, payload: payload, options: options }
+}
+
+function install (_Vue) {
+  if (Vue && _Vue === Vue) {
+    if (true) {
+      console.error(
+        '[vuex] already installed. Vue.use(Vuex) should be called only once.'
+      );
+    }
+    return
+  }
+  Vue = _Vue;
+  applyMixin(Vue);
+}
+
+var mapState = normalizeNamespace(function (namespace, states) {
+  var res = {};
+  normalizeMap(states).forEach(function (ref) {
+    var key = ref.key;
+    var val = ref.val;
+
+    res[key] = function mappedState () {
+      var state = this.$store.state;
+      var getters = this.$store.getters;
+      if (namespace) {
+        var module = getModuleByNamespace(this.$store, 'mapState', namespace);
+        if (!module) {
+          return
+        }
+        state = module.context.state;
+        getters = module.context.getters;
+      }
+      return typeof val === 'function'
+        ? val.call(this, state, getters)
+        : state[val]
+    };
+    // mark vuex getter for devtools
+    res[key].vuex = true;
+  });
+  return res
+});
+
+var mapMutations = normalizeNamespace(function (namespace, mutations) {
+  var res = {};
+  normalizeMap(mutations).forEach(function (ref) {
+    var key = ref.key;
+    var val = ref.val;
+
+    res[key] = function mappedMutation () {
+      var args = [], len = arguments.length;
+      while ( len-- ) args[ len ] = arguments[ len ];
+
+      var commit = this.$store.commit;
+      if (namespace) {
+        var module = getModuleByNamespace(this.$store, 'mapMutations', namespace);
+        if (!module) {
+          return
+        }
+        commit = module.context.commit;
+      }
+      return typeof val === 'function'
+        ? val.apply(this, [commit].concat(args))
+        : commit.apply(this.$store, [val].concat(args))
+    };
+  });
+  return res
+});
+
+var mapGetters = normalizeNamespace(function (namespace, getters) {
+  var res = {};
+  normalizeMap(getters).forEach(function (ref) {
+    var key = ref.key;
+    var val = ref.val;
+
+    val = namespace + val;
+    res[key] = function mappedGetter () {
+      if (namespace && !getModuleByNamespace(this.$store, 'mapGetters', namespace)) {
+        return
+      }
+      if ( true && !(val in this.$store.getters)) {
+        console.error(("[vuex] unknown getter: " + val));
+        return
+      }
+      return this.$store.getters[val]
+    };
+    // mark vuex getter for devtools
+    res[key].vuex = true;
+  });
+  return res
+});
+
+var mapActions = normalizeNamespace(function (namespace, actions) {
+  var res = {};
+  normalizeMap(actions).forEach(function (ref) {
+    var key = ref.key;
+    var val = ref.val;
+
+    res[key] = function mappedAction () {
+      var args = [], len = arguments.length;
+      while ( len-- ) args[ len ] = arguments[ len ];
+
+      var dispatch = this.$store.dispatch;
+      if (namespace) {
+        var module = getModuleByNamespace(this.$store, 'mapActions', namespace);
+        if (!module) {
+          return
+        }
+        dispatch = module.context.dispatch;
+      }
+      return typeof val === 'function'
+        ? val.apply(this, [dispatch].concat(args))
+        : dispatch.apply(this.$store, [val].concat(args))
+    };
+  });
+  return res
+});
+
+var createNamespacedHelpers = function (namespace) { return ({
+  mapState: mapState.bind(null, namespace),
+  mapGetters: mapGetters.bind(null, namespace),
+  mapMutations: mapMutations.bind(null, namespace),
+  mapActions: mapActions.bind(null, namespace)
+}); };
+
+function normalizeMap (map) {
+  return Array.isArray(map)
+    ? map.map(function (key) { return ({ key: key, val: key }); })
+    : Object.keys(map).map(function (key) { return ({ key: key, val: map[key] }); })
+}
+
+function normalizeNamespace (fn) {
+  return function (namespace, map) {
+    if (typeof namespace !== 'string') {
+      map = namespace;
+      namespace = '';
+    } else if (namespace.charAt(namespace.length - 1) !== '/') {
+      namespace += '/';
+    }
+    return fn(namespace, map)
+  }
+}
+
+function getModuleByNamespace (store, helper, namespace) {
+  var module = store._modulesNamespaceMap[namespace];
+  if ( true && !module) {
+    console.error(("[vuex] module namespace not found in " + helper + "(): " + namespace));
+  }
+  return module
+}
+
+var index_esm = {
+  Store: Store,
+  install: install,
+  version: '3.0.1',
+  mapState: mapState,
+  mapMutations: mapMutations,
+  mapGetters: mapGetters,
+  mapActions: mapActions,
+  createNamespacedHelpers: createNamespacedHelpers
+};
+
+
+/* harmony default export */ __webpack_exports__["default"] = (index_esm);
 
 
 /***/ }),

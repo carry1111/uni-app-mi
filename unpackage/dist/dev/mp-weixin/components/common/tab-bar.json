@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "count": "/components/common/count"
+  },
+  "component": true
+}

@@ -1,4 +1,9 @@
 {
   "navigationBarTitleText": "购物车",
-  "usingComponents": {}
+  "usingComponents": {
+    "top": "/components/common/top",
+    "tab-bar": "/components/common/tab-bar",
+    "uni-number-box": "/components/uni-number-box/uni-number-box",
+    "empty": "/components/common/empty"
+  }
 }

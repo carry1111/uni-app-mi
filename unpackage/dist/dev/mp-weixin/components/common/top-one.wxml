@@ -1,0 +1,1 @@
+<view class="content" bind:__l="__l"><view data-event-opts="{{[['tap',[['backPre',['$event']]]]]}}" class="back" bindtap="__e"></view><view class="text">{{''+text+''}}</view></view>

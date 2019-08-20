@@ -1,0 +1,326 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.header {
+  position: relative;
+}
+.header .back {
+    position: absolute;
+    left: 20rpx;
+    top: 20rpx;
+    z-index: 100;
+    width: 64rpx;
+    height: 64rpx;
+    line-height: 64rpx;
+    border-radius: 32rpx;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.header .back::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 18rpx;
+      height: 18rpx;
+      border-top: 3rpx solid #fff;
+      border-left: 3rpx solid #fff;
+      -webkit-transform: translate(-30%, -50%) rotate(-45deg);
+          -ms-transform: translate(-30%, -50%) rotate(-45deg);
+              transform: translate(-30%, -50%) rotate(-45deg);
+}
+.swiper {
+  height: 800rpx;
+}
+.swiper .swiper-item {
+    width: 750rpx;
+    height: 800rpx;
+}
+.swiper .swiper-item .swiper-img {
+      width: 750rpx;
+      height: 800rpx;
+}
+.section {
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+}
+.product-name {
+  padding-top: 30rpx;
+  padding-bottom: 10rpx;
+}
+.product-info {
+  padding-top: 10rpx;
+  padding-bottom: 10rpx;
+  font-size: 26rpx;
+  color: rgba(0, 0, 0, 0.54);
+}
+.price .sign::before {
+  content: '\A5';
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-decoration: none;
+}
+.price .new {
+  position: relative;
+  color: #ff6700;
+  padding-left: 24rpx;
+  font-size: 40rpx;
+}
+.price .new::before {
+    font-size: 35rpx;
+}
+.price .old {
+  position: relative;
+  padding-left: 10rpx;
+  margin-left: 10rpx;
+  text-decoration: line-through;
+  font-size: 20rpx;
+  color: rgba(0, 0, 0, 0.5);
+}
+.price .old::before {
+    font-size: 20rpx;
+}
+.product-detail {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 140rpx;
+  margin-top: 20rpx;
+  overflow-x: auto;
+  text-align: center;
+}
+.product-detail .item {
+    width: 170rpx;
+    height: 140rpx;
+    font-size: 25rpx;
+    -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+            flex-shrink: 0;
+    border-right: 1rpx solid #d9d9d9;
+}
+.product-detail .item .image {
+      width: 40rpx;
+      height: 40rpx;
+}
+.product-detail .item .info {
+      overflow: hidden;
+      white-space: nowrap;
+      -o-text-overflow: ellipsis;
+         text-overflow: ellipsis;
+}
+.cuxiao {
+  margin: 14rpx 0;
+  font-size: 28rpx;
+}
+.cuxiao .promotion {
+    background-color: #fafafa;
+}
+.delivery {
+  margin: 10rpx 0;
+  font-size: 28rpx;
+}
+.delivery .con {
+    background-color: #fafafa;
+}
+.delivery .item3 .center {
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 22rpx;
+}
+.three-column {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20rpx;
+  border-left: 1rpx solid #eee;
+  border-top: 1rpx solid #eee;
+}
+.three-column .left {
+    color: rgba(0, 0, 0, 0.54);
+    width: 100rpx;
+}
+.three-column .center {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+}
+.three-column .right {
+    width: 40rpx;
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    color: #ccc;
+}
+.comment {
+  margin: 16rpx 30rpx;
+}
+.comment .swiper {
+    height: 450rpx;
+}
+.comment .swiper .item {
+      padding: 10rpx 20rpx;
+      border: 1rpx solid #eee;
+}
+.comment .swiper .item .comment-info {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        padding: 10rpx;
+        font-size: 24rpx;
+}
+.comment .swiper .item .comment-info .head-portrait {
+          width: 100rpx;
+}
+.comment .swiper .item .comment-info .head-portrait .img {
+            width: 80rpx;
+            height: 80rpx;
+            border-radius: 80rpx;
+}
+.comment .swiper .item .comment-info .name {
+          -webkit-box-flex: 1;
+          -webkit-flex: 1;
+              -ms-flex: 1;
+                  flex: 1;
+}
+.comment .swiper .item .comment-info .up {
+          width: 100rpx;
+}
+.comment .swiper .item .content {
+        margin: 10rpx 0 20rpx;
+        font-size: 26rpx;
+}
+.comment .swiper .item .photo .img {
+        width: 170rpx;
+        height: 140rpx;
+        margin-right: 15rpx;
+        border-radius: 14rpx;
+}
+.comment .swiper .item .reply {
+        margin: 10rpx 0;
+        font-size: 26rpx;
+}
+.comment .swiper .item .reply .title {
+          color: #ff6700;
+          margin-right: 10rpx;
+}
+.comment .more {
+    margin: 40rpx 0;
+    text-align: center;
+    color: #4e72a5;
+}
+.comment .more .more-comment::after {
+      content: "\25BA";
+      font-size: 6rpx;
+      vertical-align: middle;
+      display: inline-block;
+      -webkit-transform: scale(0.8, 1.5);
+      -ms-transform: scale(0.8, 1.5);
+          transform: scale(0.8, 1.5);
+      font-family: Times New Roman;
+}
+.image1 {
+  width: 100%;
+  display: block;
+}
+.backTop {
+  position: fixed;
+  bottom: 160rpx;
+  right: 60rpx;
+  z-index: 100;
+}
+.confirm-h5 {
+  position: fixed;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  bottom: 20rpx;
+  left: 0;
+  width: 100%;
+  padding: 0 25rpx;
+}
+.confirm {
+  position: fixed;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  bottom: -140rpx;
+  left: 0;
+  width: 100%;
+  padding: 0 25rpx;
+}
+.confirm .container, .confirm-h5 .container {
+  width: 100%;
+  height: 110rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  border-radius: 10rpx;
+  -webkit-box-shadow: 0 2rpx 4rpx -1rpx rgba(0, 0, 0, 0.2), 0 4rpx 5rpx rgba(0, 0, 0, 0.14), 0 1rpx 10rpx rgba(0, 0, 0, 0.12);
+          box-shadow: 0 2rpx 4rpx -1rpx rgba(0, 0, 0, 0.2), 0 4rpx 5rpx rgba(0, 0, 0, 0.14), 0 1rpx 10rpx rgba(0, 0, 0, 0.12);
+}
+.confirm .img, .confirm-h5 .img {
+  width: 40rpx;
+  height: 40rpx;
+}
+.confirm .page, .confirm-h5 .page {
+  width: 120rpx;
+  font-size: 26rpx;
+  text-align: center;
+}
+.confirm .shop-car, .confirm-h5 .shop-car {
+  position: relative;
+  width: 120rpx;
+  font-size: 26rpx;
+  text-align: center;
+}
+.confirm .shop-car .count, .confirm-h5 .shop-car .count {
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+.confirm .btn, .confirm-h5 .btn {
+  width: 250rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  margin-right: 20rpx;
+  background-color: #ff6700;
+  border-radius: 35rpx;
+  color: #fff;
+  font-size: 26rpx;
+}
+

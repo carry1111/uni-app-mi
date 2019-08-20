@@ -3,14 +3,14 @@
     <div v-if="!textFlex">
       <div class="wuc-tab-item" :class="[index === tabCur ? selectClass + ' cur':'']" v-for="(item,index) in tabList" :key="index" :id="index" @tap="tabSelect(index,$event)">
         <text :class="item.icon"></text>
-        <span>{{item.name}}</span>
+        <span :class="[index === tabCur ? 'name' :'']">{{item.name}}</span>
       </div>
     </div>
 
     <div class="flex text-center" v-if="textFlex">
       <div class="wuc-tab-item flex-sub" :class="index === tabCur ? selectClass + ' cur':''" v-for="(item,index) in tabList" :key="index" :id="index" @tap="tabSelect(index,$event)">
         <text :class="item.icon"></text>
-        <span>{{item.name}}</span>
+        <span :class="[index === tabCur ? 'name' :'']">{{item.name}}</span>
       </div>
     </div>
   </scroll-view>
@@ -81,19 +81,25 @@ swiper {
 }
 .wuc-tab {
     white-space: nowrap;
+	padding-right: 60upx;
 }
 .wuc-tab-item {
-    height: 90upx;
+    height: 65upx;
     display: inline-block;
-    line-height: 90upx;
+    line-height: 65upx;
     margin: 0 10upx;
     padding: 0 20upx;
+	color: rgb(116, 116, 116);
 }
 
 .wuc-tab-item.cur {
-    border-bottom: 4upx solid;
+	
 }
-
+.wuc-tab-item .name{
+	display: inline-block;
+	height: 61upx;
+	border-bottom: 4upx solid;
+}
 .wuc-tab.fixed {
 	position: fixed;
 	width: 100%;
@@ -129,5 +135,8 @@ swiper {
 
 .text-xl {
 	font-size: 36upx;
+}
+.tab-selected{
+	color: rgb(237, 91, 0);
 }
 </style>

@@ -1,0 +1,228 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.checkout {
+  background: #f5f5f5;
+}
+.address {
+  position: relative;
+  height: 80rpx;
+  line-height: 80rpx;
+  margin-bottom: 20rpx;
+  padding: 0 40rpx;
+  background-color: #fff;
+  font-size: 26rpx;
+  font-weight: 700;
+}
+.address::after {
+    position: absolute;
+    content: '';
+    width: 20rpx;
+    height: 20rpx;
+    top: 50%;
+    right: 40rpx;
+    border-top: 1rpx solid #000;
+    border-left: 1rpx solid #000;
+    -webkit-transform: translate3d(0, -50%, 0) rotate(135deg);
+            transform: translate3d(0, -50%, 0) rotate(135deg);
+}
+.payment {
+  margin-bottom: 20rpx;
+}
+.payment .list {
+    padding: 0 40rpx;
+    background-color: #fff;
+}
+.payment .list-item {
+    height: 80rpx;
+    line-height: 80rpx;
+    border-bottom: 1rpx solid #ccc;
+    background-image: url("https://s1.mi.com/m/images/m/check_normal.png");
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+    background-size: 40rpx 40rpx;
+}
+.payment .on {
+    background-image: url("https://s1.mi.com/m/images/m/check_press.png");
+}
+.payment .weixin {
+    background: url("https://s1.mi.com/m/images/m/pay_wx.png") 0 50% no-repeat;
+    background-size: 50rpx 50rpx;
+    padding-left: 60rpx;
+}
+.payment .aliapy {
+    background: url("https://s1.mi.com/m/images/m/pay_zfb2.png") 0 50% no-repeat;
+    background-size: 50rpx 50rpx;
+    padding-left: 60rpx;
+}
+.payment .xiaomi {
+    background: url("https://s1.mi.com/m/images/m/micash_wap.png") 0 50% no-repeat;
+    background-size: 50rpx 50rpx;
+    padding-left: 60rpx;
+}
+.payment .yinlian {
+    background: url("https://s1.mi.com/m/images/m/pay_yl1.png") 0 50% no-repeat;
+    background-size: 50rpx 50rpx;
+    padding-left: 60rpx;
+}
+.payment .yi {
+    background: url("https://s1.mi.com/m/images/m/pay_yzf.png") 0 50% no-repeat;
+    background-size: 50rpx 50rpx;
+    padding-left: 60rpx;
+}
+.payment .mifen {
+    background: url("https://s1.mi.com/m/images/m/pay_mifinanceinstal.png") 0 50% no-repeat;
+    background-size: 50rpx 50rpx;
+    padding-left: 60rpx;
+}
+.payment .huafen {
+    background: url("https://s1.mi.com/m/images/m/pay_antinstalment.png") 0 50% no-repeat;
+    background-size: 50rpx 50rpx;
+    padding-left: 60rpx;
+}
+.payment .payment-foot {
+    height: 80rpx;
+    line-height: 80rpx;
+    padding: 0 40rpx;
+    background-color: #fff;
+    color: #bdbdbd;
+    text-align: center;
+    font-size: 26rpx;
+}
+.money {
+  background-color: #fff;
+  padding: 0 40rpx;
+  margin-bottom: 20rpx;
+}
+.money .item {
+    height: 80rpx;
+    line-height: 80rpx;
+    font-size: 26rpx;
+    font-weight: 700;
+}
+.money .item1,
+  .money .item2 {
+    border-bottom: 1rpx solid #ccc;
+}
+.product {
+  padding: 0 40rpx;
+  margin-bottom: 20rpx;
+  background-color: #fff;
+}
+.product .product-main {
+    border-bottom: 1rpx solid #ccc;
+}
+.product .main {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100rpx;
+    padding: 10rpx 0;
+}
+.product .main .left,
+    .product .main .center,
+    .product .main .right {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+}
+.product .main .left {
+      width: 100rpx;
+}
+.product .main .left .img {
+        width: 80rpx;
+        height: 80rpx;
+}
+.product .main .center {
+      -webkit-box-flex: 1;
+      -webkit-flex: 1;
+          -ms-flex: 1;
+              flex: 1;
+      font-size: 26rpx;
+      margin-right: 58rpx;
+}
+.product .main .right {
+      width: 120rpx;
+      -webkit-box-pack: end;
+      -webkit-justify-content: flex-end;
+          -ms-flex-pack: end;
+              justify-content: flex-end;
+      text-align: right;
+}
+.price {
+  padding: 40rpx;
+  margin-bottom: 20rpx;
+  background: #fff;
+  font-size: 26rpx;
+}
+.price .item {
+    margin-bottom: 10rpx;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100rpx;
+  border-top: 1rpx solid #ccc;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+}
+.footer .left {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    line-height: 100rpx;
+    color: #ff4d14;
+}
+.footer .left .num {
+      font-weight: 700;
+}
+.footer .right {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    line-height: 100rpx;
+    text-align: center;
+    background-color: #ff5722;
+    color: #fff;
+}
+.gejue {
+  height: 300rpx;
+  background-color: #fff;
+}
+

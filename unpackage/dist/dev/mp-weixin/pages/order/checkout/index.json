@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "结算",
+  "usingComponents": {
+    "top-one": "/components/common/top-one"
+  }
+}

@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"content { text-align: center; height: ",[0,400],"; }\n.",[1],"header{ padding: ",[0,50]," 0; background-color: #f37d0f; color: #fff; font-size: ",[0,16],"; text-align: left; }\n",],undefined,{path:"./pages/my/index.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/my/index.wxml') } }));

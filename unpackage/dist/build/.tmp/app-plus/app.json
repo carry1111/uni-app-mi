@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/classify/index",
+    "pages/shopcart/index",
+    "pages/my/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "enablePullDownRefresh": true
+  },
+  "usingComponents": {},
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#333",
+    "backgroundColor": "#F8F8F8",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/images/home-off.png",
+        "selectedIconPath": "static/images/home-on.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/classify/index",
+        "iconPath": "static/images/order-off.png",
+        "selectedIconPath": "static/images/order-on.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/shopcart/index",
+        "iconPath": "static/images/cart-off.png",
+        "selectedIconPath": "static/images/cart-on.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "iconPath": "static/images/my-off.png",
+        "selectedIconPath": "static/images/my-on.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "demo1",
+  "compilerVersion": "1.8.2"
+}

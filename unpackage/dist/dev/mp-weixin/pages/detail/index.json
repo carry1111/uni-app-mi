@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "详情",
+  "usingComponents": {
+    "back-top": "/components/common/back-top",
+    "popup": "/components/common/popup",
+    "count": "/components/common/count"
+  }
+}
