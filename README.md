@@ -3,4 +3,4 @@
     2、框架：uni-app
     3、技术栈：vue + vuex + sass
     4、用HBuilderX编辑器打开运行 
-[下载地址](https://www.dcloud.io/hbuilderx.html)
+[HBuilderX下载地址](https://www.dcloud.io/hbuilderx.html)
