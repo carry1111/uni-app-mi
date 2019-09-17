@@ -38,10 +38,10 @@
     width: 100%;
     height: 340rpx;
 }
-.shop .top {
+.shop .t1 {
   height: 150rpx;
 }
-.shop .top .top-img {
+.shop .t1 .top-img {
     width: 100%;
     height: 150rpx;
 }

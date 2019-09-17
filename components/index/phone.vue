@@ -1,5 +1,5 @@
 <template>
-	<view class="">
+	<view>
 		<view class="image1">
 			<img class="new" src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/5dc78c411988f4f2f59fe1f4df063ad5.jpg?thumb=1&amp;w=720&amp;h=192">
 		</view>
@@ -7,7 +7,7 @@
 			<img class="tu" src="//i8.mifile.cn/v1/a1/2d42dee8-5351-cf06-d23a-485c3f41ad04!720x376.webp">
 		</view>
 		<view class="shop" v-for="(item,index) in list" :key="index">
-			<view class="top">
+			<view class="t1">
 				<img class="top-img" src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/20ba0e86871afd110c163ce4be9cb709.jpg?thumb=1&amp;w=720&amp;h=120"></img>
 			</view>
 			<view class="list">
@@ -62,7 +62,7 @@
 		}
 	}
 	.shop{
-		.top{
+		.t1{
 			height: 150upx;
 			.top-img{
 				width: 100%;

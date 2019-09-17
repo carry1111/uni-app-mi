@@ -74,7 +74,7 @@
 				<img src="//i8.mifile.cn/v1/a1/dbac8d88-17f5-3514-d70b-fe1e8c09a0f7.webp">
 			</a>
 			<view class="right">
-				<a class="top" href="#">
+				<a class="t" href="#">
 					<img src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/e6254fb39b219368ae18b94526bf3d22.jpg?thumb=1&amp;w=358&amp;h=252">
 				</a>
 				<a href="#">
@@ -285,7 +285,7 @@
 					height: 260upx;
 				}
 			}
-			.top{
+			.t{
 				margin-bottom: 5upx;
 			}
 		}

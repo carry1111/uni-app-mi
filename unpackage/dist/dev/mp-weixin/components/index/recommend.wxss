@@ -69,7 +69,7 @@
         width: 370rpx;
         height: 260rpx;
 }
-.container .right .top {
+.container .right .t {
       margin-bottom: 5rpx;
 }
 .banner1 {
